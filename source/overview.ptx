@@ -1,0 +1,81 @@
+<section>
+	<title>Overview of PreTeXt</title>
+
+	<slide>
+		<title>Summary</title>
+
+		<p>
+			This first part gives a quick overview of the <c>PreTeXt</c> authoring system — what it is, what it can do, and why it's worth trying if you create any kind of instructional material. 
+		</p>
+
+		<ul>
+			<li>Why PreTeXt exists</li>
+			<li>What makes it different from LaTeX or Markdown</li>
+			<li>Key features for authors and readers</li>
+			<li>How to get started quickly</li>
+		</ul>
+	</slide>
+
+	<slide xml:id="slide-01">
+		<title>What is PreTeXt?</title>
+
+		<p>
+			PreTeXt is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials that can be published in multiple formats.
+		</p>
+
+		<ul>
+			<li><em>Write once, publish everywhere</em>: from one source you can produce web, PDF, ePub, and Braille versions.</li>
+			<li>Preserves the structure of your document — sections, theorems, examples, exercises — instead of just visual formatting.</li>
+			<li>Integrates seamlessly with LaTeX syntax.</li>
+			<li>Emphasizes accessibility, open-source tools, and long-term sustainability.</li>
+		</ul>
+	</slide>
+
+	<slide>
+		<title>What can PreTeXt Do?</title>
+
+		<ul>
+			<li><strong>High-quality output:</strong> web pages, PDF, and eBook formats from a single XML source.</li>
+			<li><strong>Automatic structure:</strong> numbering, cross-references, index, table of contents, and bibliography are handled automatically.</li>
+			<li><strong>Interactivity:</strong> supports Runestone exercises, embedded computation, videos, and other web-based widgets.</li>
+			<li><strong>Accessibility:</strong> screen-reader friendly markup and support for multiple modes (dark mode, Braille, large print).</li>
+			<li><strong>Version control:</strong> easy to manage with Git, great for collaboration or open textbook projects.</li>
+		</ul>
+
+		<p>
+			In short, PreTeXt turns your teaching materials into a fully portable, interactive publication — no web design or LaTeX hacking required.
+		</p>
+	</slide>
+
+	<slide>
+		<title>Why use PreTeXt?</title>
+
+		<ul>
+			<li>You keep full control of your content and layout without proprietary software.</li>
+			<li>Your materials become accessible to all students from day one.</li>
+			<li>You can build interactive textbooks, lecture notes, or problem collections with a consistent professional look.</li>
+			<li>Colleagues can reuse or adapt sections thanks to open-source licensing and transparent structure.</li>
+		</ul>
+
+		<p>
+			Whether you want a polished textbook or just clean online notes, PreTeXt provides the workflow to make it sustainable.
+		</p>
+	</slide>
+
+	<slide>
+		<title>How do you Get Started?</title>
+
+		<ul>
+			<li>Visit <url href="https://pretextbook.org">pretextbook.org</url> for documentation and examples.</li>
+			<li>Install <code>pretext</code> via the command line or use a hosted template (e.g., Runestone PreTeXt template).</li>
+			<li>Start with the official <q>Hello, World</q> template — it's only a few lines of XML.</li>
+			<li>Build with <code>pretext build web</code> or <code>pretext build pdf</code> to see instant results.</li>
+			<li>Join the community via the <url href="https://pretextbook.org/community.html">PreTeXt community forums</url> for help and examples.</li>
+		</ul>
+
+		<p>
+			Once you've built a “Hello World,” you can scale up chapter by chapter — just like writing modular code.
+		</p>
+	</slide>
+
+</section>
