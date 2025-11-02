@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--********************************************************************
-Copyright 2019 Robert A. Beezer
-This file is part of PreTeXt.
-PreTeXt is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 or version 3 of the
-License (at your option).
-PreTeXt is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
-*********************************************************************-->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
 
-	<docinfo>
-		<macros>
-		\newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\,d#4}
-		</macros>
-	</docinfo>
+	<docinfo/>
 
 	<slideshow>
-		<title>PreTeXt</title>
-		<subtitle>A Slideshow</subtitle>
+		<title>Authoring in PreText</title>
+		<subtitle>Compuational Seminar</subtitle>
 
 		<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
 			<bibinfo>
@@ -42,6 +24,34 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 				<titlepage-items/>
 			</titlepage>
 		</frontmatter>
+
+		<slide>
+			<title>Summary</title>
+			<dl>
+				<li>
+					<title>Part I: PreTeXt</title>
+					<p>
+						Part I introduces PreText is, why you might mant to use it and where to get started.
+					</p>
+				</li>
+				<li>
+					<title>Part II: <q>Hello World</q></title>
+					<p>
+						Part II sets up of a minimal PreText workspace where we will create, build, and deploy a simple <q>Hello World</q> document.  
+					</p>
+				</li>
+				<li>
+					<title>Part III: Use Cases</title>
+					<p>
+						We conclude the talk with a demonstration of the following two use cases:
+						<ol>
+							<li>A course homepage and</li>
+							<li>A differential equations textbook.</li>
+						</ol>
+					</p>
+				</li>
+			</dl>
+		</slide>
 
 		<xi:include href="./overview.ptx" />
 		<xi:include href="./minimal-example.ptx" />

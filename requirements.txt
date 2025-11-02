@@ -1,2 +1,14 @@
 # This file was automatically generated with PreTeXt 2.29.2.
 pretext == 2.29.2
+# requirements.txt — for PreTeXt projects
+
+# Core: PreTeXt CLI (author, build, deploy)
+# Pin to the current minor series for stability + security updates.
+pretext ~= 2.29
+
+# Optional: if your project uses <prefigure>, enable the extras below
+# (You can leave both lines; pip will satisfy the extras.)
+# pretext[prefigure] ~= 2.29
+
+# (Optional quality-of-life tools—uncomment if you want them)
+# watchdog>=3.0        # faster file-change detection on some systems

@@ -1,5 +1,8 @@
 <section>
-	<title>Hello World in PreTeXt</title>
+	<title>
+		<line>Part II:</line>
+		<line>"Hello World"</line>
+	</title>
 
 	<slide>
 		<title>Goal for this Demo</title>
@@ -28,7 +31,8 @@
 			Here's the smallest complete PreTeXt document — just a few lines of XML.
 		</p>
 
-		<codeblock language="xml">
+		<program language="xml">
+			<code>
 &lt;pretext&gt;
   &lt;title&gt;Hello, World!&lt;/title&gt;
 
@@ -37,15 +41,18 @@
     &lt;p&gt;This is my first paragraph written in PreTeXt.&lt;/p&gt;
   &lt;/section&gt;
 &lt;/pretext&gt;
-		</codeblock>
+			</code>
+		</program>
 
 		<p>
-			That's it! Save it as <c>hello-world.ptx</c> and run:
+			That's it! Save it as <pf>hello-world.ptx</pf> and run:
 		</p>
 
-		<codeblock>
+		<program language="xml">
+			<code>
 pretext build web
-		</codeblock>
+			</code>
+		</program>
 	</slide>
 
 	<slide>
@@ -73,14 +80,16 @@ pretext build web
 			Let's make it feel like a math document by adding a displayed equation.
 		</p>
 
-		<codeblock language="xml">
-&lt;section&gt;
-  &lt;title&gt;A Little Math&lt;/title&gt;
-  &lt;p&gt;Here's a simple differential equation:&lt;/p&gt;
-  &lt;me&gt;y' + 2y = 0&lt;/me&gt;
-  &lt;p&gt;And its solution is &lt;m&gt;y = C e^{-2x}&lt;/m&gt;.&lt;/p&gt;
-&lt;/section&gt;
-		</codeblock>
+		<program language="xml">
+			<code>
+				&lt;section&gt;
+				&lt;title&gt;A Little Math&lt;/title&gt;
+				&lt;p&gt;Here's a simple differential equation:&lt;/p&gt;
+				&lt;me&gt;y' + 2y = 0&lt;/me&gt;
+				&lt;p&gt;And its solution is &lt;m&gt;y = C e^{-2x}&lt;/m&gt;.&lt;/p&gt;
+				&lt;/section&gt;
+			</code>
+		</program>
 
 		<p>
 			You don't need extra packages or dollar signs — PreTeXt handles math cleanly in both HTML and PDF outputs.
@@ -94,7 +103,8 @@ pretext build web
 			Now let's see how structural elements work automatically.
 		</p>
 
-		<codeblock language="xml">
+		<program language="xml">
+			<code>
 &lt;example&gt;
   &lt;title&gt;A Tiny Example&lt;/title&gt;
   &lt;statement&gt;
@@ -104,7 +114,8 @@ pretext build web
     The general solution is &lt;m&gt;y = C e^{3x}&lt;/m&gt;.
   &lt;/solution&gt;
 &lt;/example&gt;
-		</codeblock>
+			</code>
+		</program>
 
 		<p>
 			PreTeXt automatically numbers and formats the example.
