@@ -2,10 +2,7 @@
 <!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
-    <target
-        name="slides"
-        format="revealjs"
-        output-filename="slides.html"
-        />
+    <target name="slides"   source="slides.ptx"         format="revealjs"   output-filename="slides.html"/>
+    <target name="setup"    source="setup-guide.ptx"    format="html"       publication="publication.ptx"/>
   </targets>
 </project>

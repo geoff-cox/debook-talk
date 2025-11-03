@@ -1,14 +1,14 @@
 <section>
 	<title>
 		<line>Part I:</line>
-		<line>PreTeXt</line>
+		<line><pretext /></line>
 	</title>
 
 	<slide xml:id="slide-01">
-		<title>What is PreTeXt?</title>
+		<title>What is <pretext />?</title>
 
 		<p>
-			PreTeXt is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials.
+			<pretext /> is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials.
 		</p>
 		<dl>
 			<li>
@@ -26,17 +26,17 @@
 			<li>
 				<title><em>Accessibility Out of the Box:</em></title>
 				<p>
-					PreText is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.
+					<pretext /> is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.
 				</p>
 			</li>
 		</dl>
 		<p>
-			Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, PreTeXt is ready for just about any workflow.
+			Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, <pretext /> is ready for just about any workflow.
 		</p>
 	</slide>
 
 	<!-- <slide>
-		<title>Why use PreTeXt?</title>
+		<title>Why use <pretext />?</title>
 		<sbsgroup widths="8% 90%" margins="2% 0%">
 			<sidebyside>
 				<p>☑️</p><p>Built-in Accessibility.</p>
@@ -59,7 +59,7 @@
 		<dl>
 			<li><title>Documention</title>
 				<p>
-					Visit <url href="https://pretextbook.org">pretextbook.org</url>.
+					Visit <url href="https://<pretext />book.org"><pretext />book.org</url>.
 				</p>
 			</li>
 			<li><title>Working Environement (IDE/GUI)</title>
@@ -94,7 +94,7 @@
 				<p>			
 					<ul>
 						<li>Start Simple, use published templates.</li>
-						<li>Join the active and helpful community via the <url href="https://pretextbook.org/community.html">PreTeXt community forums</url>.</li>
+						<li>Join the active and helpful community via the <url href="https://<pretext />book.org/community.html"><pretext /> community forums</url>.</li>
 					</ul>
 				</p>
 			</li>

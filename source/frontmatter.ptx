@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+	<bibinfo>
+		<author>
+			<personname>Geoffrey Cox, PhD.</personname>
+			<department>Applied Mathematics</department>
+			<institution>Virginia Military Institute</institution>
+		</author>
+		<date>
+			Last Updated: <today />
+		</date>
+	</bibinfo>
+
+	<titlepage>
+		<titlepage-items/>
+		<p>
+			<url href="https://geoff-cox.github.io/my-course-syllabi/ma310-interactive" />
+		</p>
+		<p>
+			This is the Course Homepage for MA 310: MATLAB Programming 2
+		</p>
+	</titlepage>
+
+</frontmatter>
