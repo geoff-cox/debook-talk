@@ -8,7 +8,7 @@
 		<title>Authoring in PreText</title>
 		<subtitle>Compuational Seminar</subtitle>
 
-		<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+		<frontmatter>
 			<bibinfo>
 				<author>
 					<personname>Geoffrey Cox, PhD.</personname>
@@ -29,34 +29,418 @@
 			<title>Summary</title>
 			<dl>
 				<li>
-					<title>Part I: PreTeXt</title>
+					<title>✔ Part I: PreTeXt</title>
 					<p>
-						Part I introduces PreText is, why you might mant to use it and where to get started.
+						Introduction to PreText - What it is and why you might want to use it, and sample of some of its interactive features.  
 					</p>
 				</li>
 				<li>
-					<title>Part II: <q>Hello World</q></title>
+					<title>✔ Part II: Quick Start Guide (if there's interest)</title>
 					<p>
-						Part II sets up of a minimal PreText workspace where we will create, build, and deploy a simple <q>Hello World</q> document.  
+						Preview the steps involved in setting up a minimal <pretext /> workspace and creating a simple HTML and PDF document.  
 					</p>
 				</li>
 				<li>
-					<title>Part III: Use Cases</title>
+					<title>✔ Part III: Use Cases</title>
 					<p>
-						We conclude the talk with a demonstration of the following two use cases:
-						<ol>
-							<li>A course homepage and</li>
-							<li>A differential equations textbook.</li>
-						</ol>
+						Some things I've done with <pretext />.
 					</p>
+				</li>
+				<li>
+					<title>✔ Resources</title>
+				</li>
+				<li>
+					<title>✔ Questions?</title>
 				</li>
 			</dl>
 		</slide>
 
-		<xi:include href="./overview.ptx" />
-		<xi:include href="./minimal-example.ptx" />
-		<xi:include href="./debook-demo.ptx" />
-		<xi:include href="./resources.ptx" />
-	
+		<slide>
+			<title>
+				<line>Part I: PreTeXt</line>
+				<line>What is PreTeXt?</line>
+			</title>
+
+			<p>
+				PreTeXt is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials.
+			</p>
+			<dl>
+				<li>
+					<title><em>Write once, publish everywhere</em></title>
+					<p>
+						From one source you can produce web, PDF, ePub, and Braille versions.
+					</p>
+				</li>
+				<li>
+					<title><em>Built-in Interactive Components:</em></title>
+					<p>
+						Suppliment narrative with interactive reading questions, computational/programming tasks, or embedded visualization tools.
+					</p>
+				</li>
+				<li>
+					<title><em>Accessibility Out of the Box:</em></title>
+					<p>
+						PreText is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.
+					</p>
+				</li>
+			</dl>
+			<p>
+				Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, PreTeXt is ready for just about any workflow.
+			</p>
+		</slide>
+
+		<slide>
+			<title>
+				<line>Part I: PreTeXt</line>
+				<line>How to Get Started?</line>
+			</title>
+
+			<dl>
+				<li><title>Learning/Getting Help</title>
+					<p>			
+						<ul>
+							<li>Documention: <url href="https://pretextbook.org">pretextbook.org</url>.</li>
+							<li>Build-up from <pretext /> generated templates.</li>
+							<li>Many <pretext /> books are online. Find one you like, download it, and adapt it to your needs.</li> 
+							<li>Join the <url href="https://pretextbook.org/community.html">PreTeXt forums</url>.</li>
+							<li>Email Me: <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url>.</li>
+						</ul>
+					</p>
+				</li>
+				<li><title>Working Environement (IDE/GUI)</title>
+					<p>
+						<ul>
+							<li>
+								Option 1: Github + Codespaces
+							</li>
+							<li> 
+								<p>
+									Option 2: Local Installation
+									<ul>
+										<li>VSCode</li>
+										<li>Python</li>
+										<li>Latex</li>
+										<li>A few more depending on your use case.</li>
+									</ul>
+								</p>
+							</li>
+						</ul>
+					</p>
+				</li>
+				<li><title>Requirements</title>
+					<p>			
+						<ul>
+							<li>Minimal Command Line Use.</li>
+							<li>Motivation to Onboard into something new.</li>
+						</ul>
+					</p>
+				</li>
+
+			</dl>
+		</slide>
+
+		<slide>
+			<title>
+				<line>Part I: PreTeXt</line>
+				<line>Sample of Some Interactive Features</line>
+			</title>
+
+			<dl>
+				<li>
+					<title>Embedded Interactives (3rd Party)</title>
+					<ul>
+						<li>GeoGebra,</li>
+						<li>Desmos,</li>
+						<li>Google Maps, ...</li>
+					</ul>
+				</li>
+				<li>
+					<title>Interactive Exercises</title>
+					<ul>
+						<li>✔ True/False,</li>
+						<li>✔ Multiple-Choice,</li>
+						<li>✔ Matching,</li>
+						<li>✔ Clickable-Area,</li>
+						<li>✔ Fill-in-the-Blank,</li>
+						<li>✔ Short Answer, ...</li>
+					</ul>
+				</li>
+				<li>
+					<title>Interactive Coding</title>
+				</li>
+				<li>
+					<title>Authored Interactives (Advanced)</title>
+				</li>			
+			</dl>
+
+			<p>
+				Add a Link to Features <url href="www.google.com" />.
+			</p>
+		</slide>
+
+		<slide>
+			<title>
+				<line>Part II:</line>
+				<line>Quick Start Guide</line>
+			</title>
+
+			<p>
+				If there is interest, I can provide a preview of the steps needed to get up and running with <pretext />, including:
+				<ul>
+					<li>Setting up a basic <pretext /> workspace,</li>
+					<li>Creating a new book,</li>
+					<li>Building &amp; Viewing a book, and</li>
+					<li>Deploying the book for the world to see.</li>
+				</ul>
+			</p>
+		</slide>
+
+		<slide>
+			<title>
+				<line>Part III: Use Cases</line>
+				<line>Overview</line>
+			</title>
+
+			<p>
+				To give you an idea of how I have been using <pretext/>, I will show you a few documents I created.
+			</p>
+
+			<ul>
+				<li>A slideshow.</li>
+				<li>A course homepage.</li>
+				<li>A differential equations textbook.</li>
+			</ul>
+
+			<p>
+				Let's start with the Course Homepage: <url href="www.google.com" />
+			</p>
+		</slide>
+
+		<!-- <slide>
+			<title>Why Write a New Book?</title>
+
+			<p>
+				Every instructor teaching differential equations faces the same challenge:
+				finding a text that balances clarity, rigor, and accessibility.
+			</p>
+
+			<ul>
+				<li>Many commercial texts are expensive and overly formal.</li>
+				<li>Free online notes exist, but often lack structure or interactivity.</li>
+				<li>I wanted something approachable — conversational, visually clear, and ready for digital classrooms.</li>
+			</ul>
+
+			<p>
+				So I decided to write the book I always wanted to teach from.
+			</p>
+		</slide> -->
+
+		<slide>
+			<title>
+				<line>Part III: Use Cases</line>
+				<line>Design Philosophy</line>
+			</title>
+
+			<ul>
+				<li><strong>Student-facing tone:</strong> clear explanations, minimal jargon, and helpful transitions.</li>
+				<li><strong>Scaffolded learning:</strong> checkpoint questions, summaries, and “quick reference” sections in every chapter.</li>
+				<li><strong>Interactive thinking:</strong> figures, slope fields, and numerical explorations are integrated into the narrative.</li>
+				<li><strong>Pedagogical consistency:</strong> each method follows a labeled, step-by-step structure for easy comparison.</li>
+			</ul>
+
+			<p>
+				The goal: make the text feel like a guided conversation, not a wall of text or a lecture transcript.
+			</p>
+		</slide>
+
+		<!-- <slide>
+			<title>How PreTeXt Made It Possible</title>
+
+			<p>
+				PreTeXt handled all the organization, structure, and rendering —
+				allowing me to focus entirely on teaching, not typesetting.
+			</p>
+
+			<ul>
+				<li>Automatic numbering for examples, definitions, and equations.</li>
+				<li>Cross-references and links update themselves.</li>
+				<li>Consistent formatting for exercises, solutions, and asides.</li>
+				<li>Built-in accessibility features ensure all students can navigate the content.</li>
+				<li>Web output includes interactivity and mobile-friendly design.</li>
+			</ul>
+
+			<p>
+				In short: PreTeXt made a solo-authored, full-scale interactive textbook realistic.
+			</p>
+		</slide> -->
+
+		<!-- <slide>
+			<title>Book Structure Overview</title>
+
+			<p>
+				The textbook currently spans eleven chapters, moving from the basics of first-order equations to Laplace transforms and systems.
+			</p>
+
+			<ul>
+				<li><strong>Ch. 1–3:</strong> Foundations — What is a DE? What is a solution? Separation of Variables.</li>
+				<li><strong>Ch. 4–6:</strong> Linear Methods, Slope Fields, and Numerical Solutions.</li>
+				<li><strong>Ch. 7–8:</strong> Constant Coefficient Equations and Undetermined Coefficients.</li>
+				<li><strong>Ch. 9–11:</strong> Laplace Transforms and Piecewise Forcing Functions.</li>
+			</ul>
+
+			<p>
+				Each chapter ends with a summary, quick reference sheet, and conceptual checkpoint questions.
+			</p>
+		</slide> -->
+
+		<!-- <slide>
+			<title>Interactive &amp; Computational Features</title>
+
+			<p>
+				One of the major advantages of authoring in PreTeXt is how easily interactive components integrate into the flow of the book.
+			</p>
+
+			<ul>
+				<li>Embedded exercises with automatic feedback (via Runestone or WeBWorK).</li>
+				<li>Dynamic visualizations for slope fields, phase lines, and numerical approximations.</li>
+				<li>Expandable “check your understanding” questions built right into the narrative.</li>
+				<li>Flexible integration with Jupyter or Sage for symbolic computation examples.</li>
+			</ul>
+
+			<p>
+				Students can read, compute, and explore — all in one place.
+			</p>
+		</slide> -->
+
+		<!-- <slide>
+			<title>Challenges and Lessons Learned</title>
+
+			<ul>
+				<li>PreTeXt is powerful but very precise — small syntax errors matter!</li>
+				<li>Designing interactive pedagogy requires careful balance: not everything benefits from being “clickable.”</li>
+				<li>Version control (Git) quickly became essential for managing growth.</li>
+				<li>Community support was fantastic — documentation, mailing list, and examples made a big difference.</li>
+			</ul>
+
+			<p>
+				The main takeaway: the learning curve is worth it. Once you build momentum, authoring feels natural and sustainable.
+			</p>
+		</slide> -->
+
+		<slide>
+			<title>
+				<line>Part III: Use Cases</line>
+				<line>Future Directions</line>
+			</title>
+
+			<ul>
+				<li>Adding more computational tools — numerical solvers and phase-plane interactives.</li>
+				<li>Integrating with institutional LMS systems for smoother assignment workflows.</li>
+				<li>Exploring audio narration and accessibility extensions for broader reach.</li>
+				<li>Sharing the source publicly so others can adapt or remix sections for their own courses.</li>
+			</ul>
+
+			<p>
+				The broader goal is to make this book a model for how open, interactive materials can evolve within a department.
+			</p>
+		</slide>
+
+		<!-- <slide>
+			<title>Closing Thoughts</title>
+
+			<p>
+				PreTeXt isn't just a way to write textbooks — it's a way to think about teaching computationally.
+				It allows instructors to create structured, interactive, and sustainable materials that grow over time.
+			</p>
+
+			<p>
+				<c>Differential Equations: An Interactive Introduction</c> is one example,
+				but the same approach can work for any course — math, computing, or beyond.
+			</p>
+
+			<p>
+				Thank you! I'd love to hear your ideas for how our department might use PreTeXt in other projects.
+			</p>
+		</slide> -->
+
+		<slide>
+			<title>
+				<line>Part III: Use Cases</line>
+				<line>Differential Equations Textbook</line>
+			</title>
+
+			<p>
+				<em>Title:</em> <q>Differential Equations: An Interactive Introduction</q>
+			</p>
+
+			<ul>
+				<li>
+					<strong>Web version:</strong>
+					<url href="YOUR_BOOK_URL_HERE">YOUR_BOOK_URL_HERE</url>
+				</li>
+				<li>
+					<strong>GitHub repository (if public):</strong>
+					<url href="YOUR_REPO_URL_HERE">YOUR_REPO_URL_HERE</url>
+				</li>
+				<li>
+					Free to read, open to adapt — feedback and collaboration welcome!
+				</li>
+			</ul>
+
+			<p>
+				This project demonstrates how PreTeXt can support modern, open, and computationally aware textbook design.
+			</p>
+		</slide>
+
+		<slide>
+			<title>Resources &amp; Links</title>
+
+			<ul>
+				<li>
+					<strong>PreTeXt Project Website:</strong>
+					<url href="https://pretextbook.org">https://pretextbook.org</url>
+				</li>
+				<li>
+					<strong>Documentation &amp; Tutorials:</strong>
+					<url href="https://pretextbook.org/doc/guide/html/">Author's Guide</url>
+				</li>
+				<li>
+					<strong>Runestone Interactive:</strong>
+					<url href="https://runestone.academy/">https://runestone.academy</url>
+					– free platform for hosting interactive PreTeXt books.
+				</li>
+				<li>
+					<strong>Community Forum:</strong>
+					<url href="https://pretextbook.org/community.html">Discussion &amp; Support</url>
+				</li>
+			</ul>
+
+			<p>
+				The PreTeXt community is active and supportive — a great place to ask questions, share progress, and learn from others.
+			</p>
+		</slide>
+
+		<slide>
+			<title>Thank You!</title>
+
+			<p>
+				Thanks for coming! I hope this gave you a sense of how fun and empowering it can be to write in PreTeXt.
+			</p>
+
+			<p>
+				If you'd like to explore more or collaborate, feel free to reach out:
+			</p>
+
+			<ul>
+				<li><strong>Email:</strong> YOUR_EMAIL_HERE</li>
+				<li><strong>Department:</strong> YOUR_DEPARTMENT_NAME</li>
+				<li><strong>Institution:</strong> YOUR_INSTITUTION_NAME</li>
+			</ul>
+
+			<p>
+				Let's keep building great computational resources together.
+			</p>
+		</slide>
+
 	</slideshow>
 </pretext>
