@@ -404,5 +404,62 @@
 			</p>
 		</slide> -->
 
+		<slide>
+			<p>
+				Textbook Highlight Notes:
+				<dl>
+					<li>
+						<title>What is a Differential Equation?</title>
+						<p>
+							What to cover:
+							<ul>
+								<li>Audio</li>
+							</ul>
+						</p>
+					</li>
+					<li>
+						<title>Order &amp; Linearity</title>
+						<p>
+							What to cover:
+							<ul>
+								<li>Checkpoint 13 (Fill-in the Blank)</li>
+								<li>Checkpoint 14 (Matching)</li>
+								<li>Checkpoint 16 (Click-Area)</li>
+							</ul>
+						</p>
+					</li>
+					<li>
+						<title>Chapter 1 Exercises</title>
+						<p>
+							What to cover:
+							<ul>
+								<li>Classification 1</li>
+								<li>Classification 3</li>
+							</ul>
+						</p>
+					</li>
+					<li>
+						<title>Visualizing Solutions</title>
+						<p>
+							What to cover:
+							<ul>
+								<li>Interactive: Visualizing Solutions</li>
+								<li>Follow-up Questions</li>
+							</ul>
+						</p>
+					</li>
+					<li>
+						<title>Direct Integration</title>
+						<p>
+							What to cover:
+							<ul>
+								<li>Checkpoint 46 (WebWork)</li>
+								<li>Follow-up Questions</li>
+							</ul>
+						</p>
+					</li>
+				</dl>
+			</p>
+		</slide>
 	</slideshow>
 </pretext>
