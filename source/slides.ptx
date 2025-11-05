@@ -57,28 +57,27 @@
 
 		<slide label="p1-pretext-what-is-it">
 			<title>
-				<line>Part I: PreTeXt</line>
-				<line>What is PreTeXt?</line>
+				<line>Part I: PreTeXt - What is PreTeXt?</line>
 			</title>
 
 			<p>
-				PreTeXt is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials.
+				PreTeXt is an open-source authoring language designed for writing textbooks, articles, lecture notes, and course materials.
 			</p>
 			<dl>
 				<li>
-					<title><em>Write once, publish everywhere</em></title>
+					<title>✦ <em>Write once, publish everywhere</em></title>
 					<p>
 						From one source you can produce web, PDF, ePub, and Braille versions.
 					</p>
 				</li>
 				<li>
-					<title><em>Built-in Interactive Components:</em></title>
+					<title>✦ <em>Built-in Interactive Components:</em></title>
 					<p>
-						Suppliment narrative with interactive reading questions, computational/programming tasks, or embedded visualization tools.
+						Suppliment narrative with interactive reading questions, coding tasks, or visualization tools.
 					</p>
 				</li>
 				<li>
-					<title><em>Accessibility Out of the Box:</em></title>
+					<title>✦ <em>Accessibility Out of the Box:</em></title>
 					<p>
 						PreText is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.
 					</p>
@@ -91,8 +90,7 @@
 
 		<slide label="p1-pretext-getting-started">
 			<title>
-				<line>Part I: PreTeXt</line>
-				<line>How to Get Started?</line>
+				<line>Part I: PreTeXt - How to Get Started?</line>
 			</title>
 
 			<dl>
@@ -116,9 +114,7 @@
 								<p>
 									Option 2: Local Installation
 									<ul>
-										<li>VSCode</li>
-										<li>Python</li>
-										<li>Latex</li>
+										<li>VSCode, Python, Latex,</li>
 										<li>A few more depending on your use case.</li>
 									</ul>
 								</p>
@@ -127,10 +123,12 @@
 					</p>
 				</li>
 				<li><title>Requirements</title>
-					<p>			
+					<p>
+						Willness to become familiar with
 						<ul>
-							<li>Minimal Command Line Use.</li>
-							<li>Motivation to Onboard into something new.</li>
+							<li>GitHub (basic commands).</li>
+							<li>PreText Syntax (think latex with html &lt;tags&gt;).</li>
+							<li>Minimal command line use (building and viewing). Even less if you use Option 1.</li>
 						</ul>
 					</p>
 				</li>
@@ -140,16 +138,13 @@
 
 		<slide label="p1-pretext-features">
 			<title>
-				<line>Part I: PreTeXt</line>
-				<line>Sample of Some Interactive Features</line>
+				<line>Part I: PreTeXt - Interactive Features</line>
 			</title>
 
 			<dl>
 				<li>
 					<title>Embedded Interactives (3rd Party)</title>
-					<line>🧮 GeoGebra,</line>
-					<line>🧮 Desmos,</line>
-					<line>🧮 Google Maps, ...</line>
+					<line>🧮 GeoGebra, Desmos, Google Maps, ...</line>
 				</li>
 				<li>
 					<title>Interactive Exercises</title>
@@ -175,8 +170,7 @@
 
 		<slide label="p2-quick-start">
 			<title>
-				<line>Part II:</line>
-				<line>Quick Start Guide</line>
+				<line>Part II: Quick Start Guide</line>
 			</title>
 
 			<p>
@@ -190,26 +184,96 @@
 			</p>
 		</slide>
 
-		<slide label="p3-uses-cases-overview">
+		<slide label="p3-uses-cases">
 			<title>
 				<line>Part III: Use Cases</line>
-				<line>Overview</line>
 			</title>
 
 			<p>
-				To see how I have been using <pretext/>, I'll now share the following:
-			</p>
-
-			<ul>
-				<li>You've already seen one. This slideshow.</li>
-				<li>Course Homepage.</li>
-				<li>Differential Equations Textbook.</li>
-			</ul>
-
-			<p>
-				Let's start with the <url href="https://geoff-cox.github.io/matlab-course/worksheets/frontmatter.html">Course Homepage</url> and finish-up with the textbook.
+				<line>▷ This slideshow.</line>
+				<line>▷ <url href="https://geoff-cox.github.io/matlab-course/worksheets/frontmatter.html">Course Homepage</url></line>
+				<line>▷ <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">Differential Equations Textbook</url></line>
+				<dl>
+					<li>
+						<title><em>Student-Facing Design Philosophy:</em></title>
+						<p>
+							<line>🔸conversational tone </line>
+							<line>🔸minimal jargon </line>
+							<line>🔸no walls of text </line>
+							<line>🔸low buy-in reading questions </line>
+							<line>🔸audio option </line>
+							<line>🔸targeted reflection checkpoints </line>
+							<line>🔸visualization tools </line>
+						</p>
+					</li>
+				</dl>
 			</p>
 		</slide>
+
+		<slide label="resources-links">
+			<title>Resources &amp; Links</title>
+
+			<dl>
+				<li>
+					<title><em>Main PreTeXt Hub</em></title>
+					<p>
+						<url href="https://pretextbook.org">https://pretextbook.org</url>
+					</p>
+				</li>
+				<li>
+					<title><em>Authoring Documentation</em></title>
+					<p>
+						<url href="https://pretextbook.org/doc/guide/html/">https://pretextbook.org/doc/guide/html/</url>
+					</p>
+				</li>
+				<li>
+					<title><em>Runestone (Free PreTeXt Hosting Service)</em></title>
+					<p>
+						<url href="https://runestone.academy/">https://runestone.academy</url>
+					</p>
+				</li>
+				<li>
+					<title><em>Discussion &amp; Support Community Forum</em></title>
+					<p>
+						<url href="https://pretextbook.org/community.html">https://pretextbook.org/community.html</url>
+					</p>
+				</li>
+				<li>
+					<title><em>Textbook Repository</em></title>
+					<url href="https://github.com/geoff-cox/debookrs">https://github.com/geoff-cox/debookrs</url>
+				</li>
+			</dl>
+		</slide>
+
+		<slide label="thanks-questions">
+			<title>Thank You!</title>
+
+			<p>
+				Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.
+			</p>
+
+			<p>
+				If you'd like to explore more or collaborate, feel free to reach out:
+			</p>
+
+			<sidebyside widths="10% 60%">
+				<p>📧</p> <p><em>Email:</em> <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
+			</sidebyside>
+
+			<!-- <sidebyside widths="10% 60%">
+				<p>🏢</p>
+				<p><em>Department:</em> Applied Mathematics</p>
+			</sidebyside>
+			<sidebyside widths="10% 60%">
+				<p>🏫</p>
+				<p><em>Institution:</em> Virginia Military Institute</p>
+			</sidebyside> -->
+
+			<sidebyside width="20%">
+				<p>QUESTIONS?</p>
+			</sidebyside>
+		</slide>
+
 
 		<!-- <slide>
 			<title>Why Write a New Book?</title>
@@ -229,28 +293,6 @@
 				So I decided to write the book I always wanted to teach from.
 			</p>
 		</slide> -->
-
-		<slide label="p3-uses-cases-book-design">
-			<title>
-				<line>Part III: Use Cases</line>
-				<line>Design Philosophy &amp; Goals</line>
-			</title>
-
-			<dl>
-				<li>
-					<title>🔖 <em>Student-Facing</em></title>
-					<p>Conversational over academic tone, minimal jargon, and tight transitions. Avoid walls of text. Audio option.</p>
-				</li>
-				<li>
-					<title>🔖 <em>Content Engagement</em></title>
-					<p>Targeted reflection points (via low buy-in reading questions) are interweaved throughout the narrative with varying question types.</p>
-				</li>
-				<li>
-					<title>🔖 <em>Scaffolded Progression</em></title>
-					<p>Checkpoint questions, step-by-step guides, summaries, and quick reference are provided.</p>
-				</li>
-			</dl>
-		</slide>
 
 		<!-- <slide>
 			<title>How PreTeXt Made It Possible</title>
@@ -361,97 +403,6 @@
 				Thank you! I'd love to hear your ideas for how our department might use PreTeXt in other projects.
 			</p>
 		</slide> -->
-
-		<slide label="p3-uses-cases-2">
-			<title>
-				<line>Part III: Use Cases</line>
-				<line>Differential Equations Textbook</line>
-			</title>
-
-			<p>
-				Next, I will show how I used PreTeXt to design a modern, open, and computationally aware textbook.
-			</p>
-
-			<dl>
-				<li>
-					<title><em>Title</em></title>
-					<p>
-						<q>Exploring Differential Equations: An Interactive, Student-Centered Approach</q>
-					</p>
-				</li>
-				<li>
-					<title><em>Web Version (via Runestone)</em></title>
-					<url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">https://runestone.academy/ns/books/published /debookrs/frontmatter.html</url>
-				</li>
-				<li>
-					<title><em>GitHub</em></title>
-					<url href="https://github.com/geoff-cox/debookrs">https://github.com/geoff-cox/debookrs</url>
-				</li>
-				<li>
-					Feedback and collaboration welcome!
-				</li>
-			</dl>
-		</slide>
-
-		<slide label="resources-links">
-			<title>Resources &amp; Links</title>
-
-			<dl>
-				<li>
-					<title><em>Main PreTeXt Hub</em></title>
-					<p>
-						<url href="https://pretextbook.org">https://pretextbook.org</url>
-					</p>
-				</li>
-				<li>
-					<title><em>Authoring Documentation</em></title>
-					<p>
-						<url href="https://pretextbook.org/doc/guide/html/">https://pretextbook.org/doc/guide/html/</url>
-					</p>
-				</li>
-				<li>
-					<title><em>Runestone (Free PreTeXt Hosting Service)</em></title>
-					<p>
-						<url href="https://runestone.academy/">https://runestone.academy</url>
-					</p>
-				</li>
-				<li>
-					<title><em>Discussion &amp; Support Community Forum</em></title>
-					<p>
-						<url href="https://pretextbook.org/community.html">https://pretextbook.org/community.html</url>
-					</p>
-				</li>
-			</dl>
-		</slide>
-
-		<slide label="thanks-questions">
-			<title>Thank You!</title>
-
-			<p>
-				Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.
-			</p>
-
-			<p>
-				If you'd like to explore more or collaborate, feel free to reach out:
-			</p>
-
-			<sidebyside widths="10% 60%">
-				<p>📧</p> <p><em>Email:</em> <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
-			</sidebyside>
-
-			<!-- <sidebyside widths="10% 60%">
-				<p>🏢</p>
-				<p><em>Department:</em> Applied Mathematics</p>
-			</sidebyside>
-			<sidebyside widths="10% 60%">
-				<p>🏫</p>
-				<p><em>Institution:</em> Virginia Military Institute</p>
-			</sidebyside> -->
-
-			<sidebyside width="20%">
-				<p>QUESTIONS?</p>
-			</sidebyside>
-		</slide>
 
 	</slideshow>
 </pretext>
