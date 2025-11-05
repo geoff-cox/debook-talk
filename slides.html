@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2025-11-04T20:34:36-05:00       *-->
+<!--*   A recent stable commit (2022-07-01):   *-->
+<!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Authoring in PreText</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/theme/solarized.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/plugin/math/math.js"></script><style>
+ul {
+  display: block !important;
+}
+.reveal img {
+  border: 0.5px !important;
+  border-radius: 2px 10px 2px;
+  padding: 4px;
+}
+.reveal pre {
+  box-shadow: none;
+  line-height: 1;
+  font-size: inherit;
+  width: auto;
+  margin: inherit;
+}
+.reveal pre code {
+  display: block;
+  padding: 0;
+  overflow: unset;
+  max-height: unset;
+  word-wrap: normal;
+}
+.definition-like,.theorem-like,.project-like {
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 10px 2px;
+  padding: 1%;
+  margin-bottom: var(--r-block-margin);
+}
+.definition-like {
+  background: #006080;
+  background: color-mix(in srgb, var(--r-background-color) 75%, #006080);
+}
+.theorem-like {
+  background: #ff000010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aa0000);
+}
+.proof-like {
+  background: #ffffff;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aaaaaa);
+}
+.project-like {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #608000);
+}
+.code-inline {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  padding: 0 3px;
+  border: 1px solid;
+  margin: 3px;
+  display: inline-block;
+}
+.sagecell_sessionOutput {
+  background: white;
+  color: black;
+  border: 0.5px solid var(--r-main-color);
+}
+
+.program {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  max-height: 450px;
+  overflow: auto;
+  border: 0.5px solid var(--r-main-color);
+}
+.ptx-sagecell, .reveal .program {
+  font-size: calc(var(--r-main-font-size) * 0.6);
+}
+
+
+.ptx-content :is(.image-box, .audio-box, .video-box, .asymptote-box) {
+  position: relative;
+}
+
+.ptx-content iframe.asymptote, .ptx-content iframe.asymptote, .ptx-content .video-box .video, .ptx-content .video-box .video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+code[class*="language-"], pre[class*="language-"] {
+  padding: 0;
+  line-height: 1.2;
+}
+
+dfn {
+  font-weight: bold;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker,
+.ptx-content li.no-marker {
+    list-style-type: none;
+}
+
+.ptx-content ol.decimal {
+    list-style-type: decimal;
+}
+.ptx-content ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+.ptx-content ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.ptx-content ol.lower-roman {
+    list-style-type: lower-roman;
+}
+.ptx-content ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.ptx-content ul.disc {
+    list-style-type: disc;
+}
+.ptx-content ul.square {
+    list-style-type: square;
+}
+.ptx-content ul.circle {
+    list-style-type: circle;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker {
+    list-style-type: none;
+}
+.ptx-content .cols1 li,
+.ptx-content .cols2 li,
+.ptx-content .cols3 li,
+.ptx-content .cols4 li,
+.ptx-content .cols5 li,
+.ptx-content .cols6 li {
+    float: left;
+    padding-right:2em;
+}
+
+/* make small images full-width in #sidebyside */
+/* could improve with a .sidebyside class */
+div[style*="display:table-cell"] img {
+    width: 100%;
+}
+          </style>
+</head>
+<body><div class="reveal ptx-content">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="slides">
+<section><section><h1>Authoring in PreText</h1>
+<h2>Compuational Seminar</h2>
+<table>
+<tr><th align="center" style="border-bottom: 0px;">Geoffrey Cox, PhD.</th></tr>
+<tr><td align="center" style="border-bottom: 0px;">Virginia Military Institute</td></tr>
+<tr><td align="center"></td></tr>
+</table>
+<h4><div class="date">Last Updated: November 4, 2025</div></h4></section></section><section><h3>Summary</h3>
+<div align="left"><dl class="description-list">
+<div>
+<dt>✔ Part I: PreTeXt</dt>
+<dd><p>Introduction to PreText - What it is and why you might want to use it, and sample of some of its interactive features.</p></dd>
+</div>
+<div>
+<dt>✔ Part II: Quick Start Guide (if there’s interest)</dt>
+<dd><p>Preview the steps involved in setting up a minimal PreTeXt workspace and creating a simple HTML and PDF document.</p></dd>
+</div>
+<div>
+<dt>✔ Part III: Use Cases</dt>
+<dd><p>Some things I’ve done with PreTeXt.</p></dd>
+</div>
+<div>
+<dt>✔ Resources</dt>
+<dd></dd>
+</div>
+<div>
+<dt>✔ Questions?</dt>
+<dd></dd>
+</div>
+</dl></div></section><section><h3>Part I: PreTeXt<br>What is PreTeXt?</h3>
+<div align="left">
+<p>PreTeXt is an open-source XML-based authoring language designed for writing textbooks, articles, lecture notes, and course materials.</p>
+<dl class="description-list">
+<div>
+<dt><em class="emphasis">Write once, publish everywhere</em></dt>
+<dd><p>From one source you can produce web, PDF, ePub, and Braille versions.</p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Built-in Interactive Components:</em></dt>
+<dd><p>Suppliment narrative with interactive reading questions, computational/programming tasks, or embedded visualization tools.</p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Accessibility Out of the Box:</em></dt>
+<dd><p>PreText is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.</p></dd>
+</div>
+</dl>
+<p>Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, PreTeXt is ready for just about any workflow.</p>
+</div></section><section><h3>Part I: PreTeXt<br>How to Get Started?</h3>
+<div align="left"><dl class="description-list">
+<div>
+<dt>Working Environement (IDE/GUI)</dt>
+<dd><p><ul class="disc" id="root-1-2-6-2-1-2-1">
+<li>Option 1: Github + Codespaces</li>
+<li><p>Option 2: Local Installation<ul class="circle" id="root-1-2-6-2-1-2-1-2-1-1">
+<li>VSCode</li>
+<li>Python</li>
+<li>Latex</li>
+<li>A few more depending on your use case.</li>
+</ul></p></li>
+</ul></p></dd>
+</div>
+<div>
+<dt>Requirements</dt>
+<dd><p><ul class="disc" id="root-1-2-6-2-2-2-1">
+<li>Minimal Command Line Use.</li>
+<li>Motivation to Onboard into something new.</li>
+</ul></p></dd>
+</div>
+</dl></div></section><section><h3>Part I: PreTeXt<br>Sample of Some Interactive Features</h3>
+<div align="left">
+<dl class="description-list">
+<div>
+<dt>Embedded Interactives (3rd Party)</dt>
+<dd>🧮 GeoGebra,<br>🧮 Desmos,<br>🧮 Google Maps, ...</dd>
+</div>
+<div>
+<dt>Interactive Exercises</dt>
+<dd>📝True/False,<br>📝Multiple-Choice,<br>📝Matching,<br>📝Clickable-Area,<br>📝Fill-in-the-Blank,<br>📝Short Answer, ...</dd>
+</div>
+<div>
+<dt>Interactive Coding</dt>
+<dd></dd>
+</div>
+<div>
+<dt>Authored Interactives (Advanced)</dt>
+<dd></dd>
+</div>
+</dl>
+<p>Let’s check out a few: <a class="external" href="https://geoff-cox.github.io/matlab-course/worksheets/talk-demo-interactive-features.html" target="_blank">Interactive Elements Gallery</a>.</p>
+</div></section><section><h3>Part II:<br>Quick Start Guide</h3>
+<div align="left"><p>If there is interest, I can provide a preview of the steps needed to get up and running with PreTeXt, including:<ul class="disc" id="root-1-2-8-2-2">
+<li>Setting up a basic PreTeXt workspace,</li>
+<li>Creating a new book,</li>
+<li>Building &amp; Viewing a book, and</li>
+<li>Deploying the book for the world to see.</li>
+</ul></p></div></section><section><h3>Part III: Use Cases<br>Overview</h3>
+<div align="left">
+<p>To see how I have been using PreTeXt, I’ll now share the following:</p>
+<ul class="disc" id="root-1-2-9-3">
+<li>You’ve already seen one. This slideshow.</li>
+<li>Course Homepage.</li>
+<li>Differential Equations Textbook.</li>
+</ul>
+<p>Let’s start with the <a class="external" href="https://geoff-cox.github.io/matlab-course/worksheets/frontmatter.html" target="_blank">Course Homepage</a> and finish-up with the textbook.</p>
+</div></section><section><h3>Part III: Use Cases<br>Design Philosophy &amp; Goals</h3>
+<div align="left"><dl class="description-list">
+<div>
+<dt>🔖 <em class="emphasis">Student-Facing</em>
+</dt>
+<dd><p>Conversational over academic tone, minimal jargon, and tight transitions. Avoid walls of text. Audio option.</p></dd>
+</div>
+<div>
+<dt>🔖 <em class="emphasis">Content Engagement</em>
+</dt>
+<dd><p>Targeted reflection points (via low buy-in reading questions) are interweaved throughout the narrative with varying question types.</p></dd>
+</div>
+<div>
+<dt>🔖 <em class="emphasis">Scaffolded Progression</em>
+</dt>
+<dd><p>Checkpoint questions, step-by-step guides, summaries, and quick reference are provided.</p></dd>
+</div>
+</dl></div></section><section><h3>Part III: Use Cases<br>Differential Equations Textbook</h3>
+<div align="left">
+<p>Next, I will show how I used PreTeXt to design a modern, open, and computationally aware textbook.</p>
+<dl class="description-list">
+<div>
+<dt><em class="emphasis">Title</em></dt>
+<dd><p>“Exploring Differential Equations: An Interactive, Student-Centered Approach”</p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Web Version (via Runestone)</em></dt>
+<dd><a class="external" href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html" target="_blank">https://runestone.academy/ns/books/published /debookrs/frontmatter.html</a></dd>
+</div>
+<div>
+<dt><em class="emphasis">GitHub</em></dt>
+<dd><a class="external" href="https://github.com/geoff-cox/debookrs" target="_blank">https://github.com/geoff-cox/debookrs</a></dd>
+</div>
+<div>
+<dt></dt>
+<dd></dd>
+</div>
+</dl>
+</div></section><section><h3>Resources &amp; Links</h3>
+<div align="left"><dl class="description-list">
+<div>
+<dt><em class="emphasis">Main PreTeXt Hub</em></dt>
+<dd><p><a class="external" href="https://pretextbook.org" target="_blank">https://pretextbook.org</a></p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Authoring Documentation</em></dt>
+<dd><p><a class="external" href="https://pretextbook.org/doc/guide/html/" target="_blank">https://pretextbook.org/doc/guide/html/</a></p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Runestone (Free PreTeXt Hosting Service)</em></dt>
+<dd><p><a class="external" href="https://runestone.academy/" target="_blank">https://runestone.academy</a></p></dd>
+</div>
+<div>
+<dt><em class="emphasis">Discussion &amp; Support Community Forum</em></dt>
+<dd><p><a class="external" href="https://pretextbook.org/community.html" target="_blank">https://pretextbook.org/community.html</a></p></dd>
+</div>
+</dl></div></section><section><h3>Thank You!</h3>
+<div align="left">
+<p>Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.</p>
+<p>If you’d like to explore more or collaborate, feel free to reach out:</p>
+<div style="display:table;margin-left:7.5%;margin-right:7.5%;" class="sidebyside">
+<div style="display:table-cell;width:11.7647058823529%;vertical-align:top;"><p>📧</p></div>
+<div style="display:table-cell;width:70.5882352941177%;vertical-align:top;"><p><em class="emphasis">Email:</em> <a class="external" href="mailto:coxgeoff@vmi.edu" target="_blank">coxgeoff@vmi.edu</a></p></div>
+</div>
+<div style="display:table;margin-left:40%;margin-right:40%;" class="sidebyside"><div style="display:table-cell;width:100%;vertical-align:top;"><p>QUESTIONS?</p></div></div>
+</div></section>
+</div>
+</div></body>
+<script>
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: true,
+  controlsLayout: 'bottom-right',
+  controlsBackArrows: 'faded',
+  navigationMode: 'default',
+  progress: false,
+  center: false,
+  hash: true,
+  transition: 'fade',
+  width: "100%",
+  height: "100%",
+  margin: "0.025",
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+    // other options are passed into MathJax.Hub.Config()
+    tex2jax: {
+      inlineMath:  [['\\(','\\)']],
+      displayMath: [],
+    }
+  },
+  plugins: [ RevealMath ]
+});
+</script>
+</html>
