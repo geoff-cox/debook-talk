@@ -96,17 +96,16 @@
 			</title>
 
 			<dl>
-				<li><title>Learning/Getting Help</title>
+				<!-- <li><title>Learning/Getting Help</title>
 					<p>			
 						<ul>
 							<li>Documention: <url href="https://pretextbook.org">pretextbook.org</url>.</li>
 							<li>Build-up from <pretext /> generated templates.</li>
 							<li>Many <pretext /> books are online. Find one you like, download it, and adapt it to your needs.</li> 
 							<li>Join the <url href="https://pretextbook.org/community.html">PreTeXt forums</url>.</li>
-							<li>Email Me: <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url>.</li>
 						</ul>
 					</p>
-				</li>
+				</li> -->
 				<li><title>Working Environement (IDE/GUI)</title>
 					<p>
 						<ul>
@@ -148,22 +147,18 @@
 			<dl>
 				<li>
 					<title>Embedded Interactives (3rd Party)</title>
-					<ul>
-						<li>GeoGebra,</li>
-						<li>Desmos,</li>
-						<li>Google Maps, ...</li>
-					</ul>
+					<line>🧮 GeoGebra,</line>
+					<line>🧮 Desmos,</line>
+					<line>🧮 Google Maps, ...</line>
 				</li>
 				<li>
 					<title>Interactive Exercises</title>
-					<ul>
-						<li>✔ True/False,</li>
-						<li>✔ Multiple-Choice,</li>
-						<li>✔ Matching,</li>
-						<li>✔ Clickable-Area,</li>
-						<li>✔ Fill-in-the-Blank,</li>
-						<li>✔ Short Answer, ...</li>
-					</ul>
+					<line>📝True/False,</line>
+					<line>📝Multiple-Choice,</line>
+					<line>📝Matching,</line>
+					<line>📝Clickable-Area,</line>
+					<line>📝Fill-in-the-Blank,</line>
+					<line>📝Short Answer, ...</line>
 				</li>
 				<li>
 					<title>Interactive Coding</title>
@@ -174,7 +169,7 @@
 			</dl>
 
 			<p>
-				Add a Link to Features <url href="www.google.com" />.
+				Let's check out a few: <url href="https://geoff-cox.github.io/matlab-course/worksheets/talk-demo-interactive-features.html">Interactive Elements Gallery</url>.
 			</p>
 		</slide>
 
@@ -202,17 +197,17 @@
 			</title>
 
 			<p>
-				To give you an idea of how I have been using <pretext/>, I will show you a few documents I created.
+				To see how I have been using <pretext/>, I'll now share the following:
 			</p>
 
 			<ul>
-				<li>A slideshow.</li>
-				<li>A course homepage.</li>
-				<li>A differential equations textbook.</li>
+				<li>You've already seen one. This slideshow.</li>
+				<li>Course Homepage.</li>
+				<li>Differential Equations Textbook.</li>
 			</ul>
 
 			<p>
-				Let's start with the Course Homepage: <url href="www.google.com" />
+				Let's start with the <url href="https://geoff-cox.github.io/matlab-course/worksheets/frontmatter.html">Course Homepage</url> and finish-up with the textbook.
 			</p>
 		</slide>
 
@@ -238,19 +233,23 @@
 		<slide>
 			<title>
 				<line>Part III: Use Cases</line>
-				<line>Design Philosophy</line>
+				<line>Design Philosophy &amp; Goals</line>
 			</title>
 
-			<ul>
-				<li><strong>Student-facing tone:</strong> clear explanations, minimal jargon, and helpful transitions.</li>
-				<li><strong>Scaffolded learning:</strong> checkpoint questions, summaries, and “quick reference” sections in every chapter.</li>
-				<li><strong>Interactive thinking:</strong> figures, slope fields, and numerical explorations are integrated into the narrative.</li>
-				<li><strong>Pedagogical consistency:</strong> each method follows a labeled, step-by-step structure for easy comparison.</li>
-			</ul>
-
-			<p>
-				The goal: make the text feel like a guided conversation, not a wall of text or a lecture transcript.
-			</p>
+			<dl>
+				<li>
+					<title>🔖 <em>Student-Facing</em></title>
+					<p>Conversational over academic tone, minimal jargon, and tight transitions. Avoid walls of text. Audio option.</p>
+				</li>
+				<li>
+					<title>🔖 <em>Content Engagement</em></title>
+					<p>Targeted reflection points (via low buy-in reading questions) are interweaved throughout the narrative with varying question types.</p>
+				</li>
+				<li>
+					<title>🔖 <em>Scaffolded Progression</em></title>
+					<p>Checkpoint questions, step-by-step guides, summaries, and quick reference are provided.</p>
+				</li>
+			</dl>
 		</slide>
 
 		<!-- <slide>
@@ -327,7 +326,7 @@
 			</p>
 		</slide> -->
 
-		<slide>
+		<!-- <slide>
 			<title>
 				<line>Part III: Use Cases</line>
 				<line>Future Directions</line>
@@ -343,7 +342,7 @@
 			<p>
 				The broader goal is to make this book a model for how open, interactive materials can evolve within a department.
 			</p>
-		</slide>
+		</slide> -->
 
 		<!-- <slide>
 			<title>Closing Thoughts</title>
@@ -370,76 +369,88 @@
 			</title>
 
 			<p>
-				<em>Title:</em> <q>Differential Equations: An Interactive Introduction</q>
+				Next, I will show how I used PreTeXt to design a modern, open, and computationally aware textbook.
 			</p>
 
-			<ul>
+			<dl>
 				<li>
-					<strong>Web version:</strong>
-					<url href="YOUR_BOOK_URL_HERE">YOUR_BOOK_URL_HERE</url>
+					<title><em>Title</em></title>
+					<p>
+						<q>Exploring Differential Equations: An Interactive, Student-Centered Approach</q>
+					</p>
 				</li>
 				<li>
-					<strong>GitHub repository (if public):</strong>
-					<url href="YOUR_REPO_URL_HERE">YOUR_REPO_URL_HERE</url>
+					<title><em>Web Version (via Runestone)</em></title>
+					<url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">https://runestone.academy/ns/books/published /debookrs/frontmatter.html</url>
 				</li>
 				<li>
-					Free to read, open to adapt — feedback and collaboration welcome!
+					<title><em>GitHub</em></title>
+					<url href="https://github.com/geoff-cox/debookrs">https://github.com/geoff-cox/debookrs</url>
 				</li>
-			</ul>
-
-			<p>
-				This project demonstrates how PreTeXt can support modern, open, and computationally aware textbook design.
-			</p>
+				<li>
+					Feedback and collaboration welcome!
+				</li>
+			</dl>
 		</slide>
 
 		<slide>
 			<title>Resources &amp; Links</title>
 
-			<ul>
+			<dl>
 				<li>
-					<strong>PreTeXt Project Website:</strong>
-					<url href="https://pretextbook.org">https://pretextbook.org</url>
+					<title><em>Main PreTeXt Hub</em></title>
+					<p>
+						<url href="https://pretextbook.org">https://pretextbook.org</url>
+					</p>
 				</li>
 				<li>
-					<strong>Documentation &amp; Tutorials:</strong>
-					<url href="https://pretextbook.org/doc/guide/html/">Author's Guide</url>
+					<title><em>Authoring Documentation</em></title>
+					<p>
+						<url href="https://pretextbook.org/doc/guide/html/">https://pretextbook.org/doc/guide/html/</url>
+					</p>
 				</li>
 				<li>
-					<strong>Runestone Interactive:</strong>
-					<url href="https://runestone.academy/">https://runestone.academy</url>
-					– free platform for hosting interactive PreTeXt books.
+					<title><em>Runestone (Free PreTeXt Hosting Service)</em></title>
+					<p>
+						<url href="https://runestone.academy/">https://runestone.academy</url>
+					</p>
 				</li>
 				<li>
-					<strong>Community Forum:</strong>
-					<url href="https://pretextbook.org/community.html">Discussion &amp; Support</url>
+					<title><em>Discussion &amp; Support Community Forum</em></title>
+					<p>
+						<url href="https://pretextbook.org/community.html">https://pretextbook.org/community.html</url>
+					</p>
 				</li>
-			</ul>
-
-			<p>
-				The PreTeXt community is active and supportive — a great place to ask questions, share progress, and learn from others.
-			</p>
+			</dl>
 		</slide>
 
 		<slide>
 			<title>Thank You!</title>
 
 			<p>
-				Thanks for coming! I hope this gave you a sense of how fun and empowering it can be to write in PreTeXt.
+				Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.
 			</p>
 
 			<p>
 				If you'd like to explore more or collaborate, feel free to reach out:
 			</p>
 
-			<ul>
-				<li><strong>Email:</strong> YOUR_EMAIL_HERE</li>
-				<li><strong>Department:</strong> YOUR_DEPARTMENT_NAME</li>
-				<li><strong>Institution:</strong> YOUR_INSTITUTION_NAME</li>
-			</ul>
+			<sidebyside widths="10% 60%">
+				<p>📧</p> <p><em>Email:</em> <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
+			</sidebyside>
 
-			<p>
-				Let's keep building great computational resources together.
-			</p>
+			<!-- <sidebyside widths="10% 60%">
+				<p>🏢</p>
+				<p><em>Department:</em> Applied Mathematics</p>
+			</sidebyside>
+			<sidebyside widths="10% 60%">
+				<p>🏫</p>
+				<p><em>Institution:</em> Virginia Military Institute</p>
+			</sidebyside> -->
+
+			<sidebyside width="20%">
+				<p>QUESTIONS?</p>
+			</sidebyside>
 		</slide>
 
 	</slideshow>
