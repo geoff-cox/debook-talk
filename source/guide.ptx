@@ -249,11 +249,11 @@
 			</assemblage>
 		</section>
 
-		<section>
+		<!-- <section>
 			<title>Your First Build</title>
 
 			<p>
-				Now that you’ve explored the workspace, it’s time to build your first <pretext /> document.
+				Now that you've explored the workspace, it's time to build your first <pretext /> document.
 				The template repository already includes a complete working example, so you can test the build process immediately.
 			</p>
 
@@ -268,12 +268,12 @@
 						</li>
 						<li>
 							<p>
-								The build process will begin. You’ll see messages as <pretext /> processes your source files, applies templates,
+								The build process will begin. You'll see messages as <pretext /> processes your source files, applies templates,
 								and generates HTML in the <c>output/web</c> folder.
 							</p>
 						</li>
 						<li>
-							When the build completes, you’ll see a message indicating success.
+							When the build completes, you'll see a message indicating success.
 							The generated files can be previewed directly in the browser.
 						</li>
 					</ol>
@@ -320,7 +320,7 @@
 			</assemblage>
 
 			<assemblage>
-				<title>What’s Happening Behind the Scenes</title>
+				<title>What's Happening Behind the Scenes</title>
 				<p>
 					When you run a build, <pretext /> uses your <c>publication.ptx</c> file to decide:
 					<ul>
@@ -346,10 +346,10 @@
 
 				<p>
 					You now have a working build process and a functional document. 
-					In the next section, we’ll explore how to edit content and customize your project.
+					In the next section, we'll explore how to edit content and customize your project.
 				</p>
 			</assemblage>
-		</section>
+		</section> -->
 
 	</article>
 

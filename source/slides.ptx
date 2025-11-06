@@ -27,7 +27,7 @@
 
 		<slide label="summary">
 			<title>Summary</title>
-			<dl>
+			<dl pause="yes">
 				<li>
 					<title>✔ Part I: PreTeXt</title>
 					<p>
@@ -63,7 +63,7 @@
 			<p>
 				PreTeXt is an open-source authoring language designed for writing textbooks, articles, lecture notes, and course materials.
 			</p>
-			<dl>
+			<dl pause="yes">
 				<li>
 					<title>✦ <em>Write once, publish everywhere</em></title>
 					<p>
@@ -93,10 +93,10 @@
 				<line>Part I: PreTeXt - How to Get Started?</line>
 			</title>
 
-			<dl>
+			<dl pause="yes">
 				<!-- <li><title>Learning/Getting Help</title>
 					<p>			
-						<ul>
+						<ul pause="yes">
 							<li>Documention: <url href="https://pretextbook.org">pretextbook.org</url>.</li>
 							<li>Build-up from <pretext /> generated templates.</li>
 							<li>Many <pretext /> books are online. Find one you like, download it, and adapt it to your needs.</li> 
@@ -106,14 +106,14 @@
 				</li> -->
 				<li><title>Working Environement (IDE/GUI)</title>
 					<p>
-						<ul>
+						<ul pause="yes">
 							<li>
 								Option 1: Github + Codespaces
 							</li>
 							<li> 
 								<p>
 									Option 2: Local Installation
-									<ul>
+									<ul pause="yes">
 										<li>VSCode, Python, Latex,</li>
 										<li>A few more depending on your use case.</li>
 									</ul>
@@ -125,7 +125,7 @@
 				<li><title>Requirements</title>
 					<p>
 						Willness to become familiar with
-						<ul>
+						<ul pause="yes">
 							<li>GitHub (basic commands).</li>
 							<li>PreText Syntax (think latex with html &lt;tags&gt;).</li>
 							<li>Minimal command line use (building and viewing). Even less if you use Option 1.</li>
@@ -141,7 +141,7 @@
 				<line>Part I: PreTeXt - Interactive Features</line>
 			</title>
 
-			<dl>
+			<dl pause="yes">
 				<li>
 					<title>Embedded Interactives (3rd Party)</title>
 					<line>🧮 GeoGebra, Desmos, Google Maps, ...</line>
@@ -175,7 +175,7 @@
 
 			<p>
 				If there is interest, I can provide a preview of the steps needed to get up and running with <pretext />, including:
-				<ul>
+				<ul pause="yes">
 					<li>Setting up a basic <pretext /> workspace,</li>
 					<li>Creating a new book,</li>
 					<li>Building &amp; Viewing a book, and</li>
@@ -193,7 +193,7 @@
 				<line>▷ This slideshow.</line>
 				<line>▷ <url href="https://geoff-cox.github.io/matlab-course/worksheets/frontmatter.html">Course Homepage</url></line>
 				<line>▷ <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">Differential Equations Textbook</url></line>
-				<dl>
+				<dl pause="yes">
 					<li>
 						<title><em>Student-Facing Design Philosophy:</em></title>
 						<p>
@@ -213,7 +213,7 @@
 		<slide label="resources-links">
 			<title>Resources &amp; Links</title>
 
-			<dl>
+			<dl pause="yes">
 				<li>
 					<title><em>Main PreTeXt Hub</em></title>
 					<p>
@@ -283,7 +283,7 @@
 				finding a text that balances clarity, rigor, and accessibility.
 			</p>
 
-			<ul>
+			<ul pause="yes">
 				<li>Many commercial texts are expensive and overly formal.</li>
 				<li>Free online notes exist, but often lack structure or interactivity.</li>
 				<li>I wanted something approachable — conversational, visually clear, and ready for digital classrooms.</li>
@@ -302,7 +302,7 @@
 				allowing me to focus entirely on teaching, not typesetting.
 			</p>
 
-			<ul>
+			<ul pause="yes">
 				<li>Automatic numbering for examples, definitions, and equations.</li>
 				<li>Cross-references and links update themselves.</li>
 				<li>Consistent formatting for exercises, solutions, and asides.</li>
@@ -322,7 +322,7 @@
 				The textbook currently spans eleven chapters, moving from the basics of first-order equations to Laplace transforms and systems.
 			</p>
 
-			<ul>
+			<ul pause="yes">
 				<li><strong>Ch. 1–3:</strong> Foundations — What is a DE? What is a solution? Separation of Variables.</li>
 				<li><strong>Ch. 4–6:</strong> Linear Methods, Slope Fields, and Numerical Solutions.</li>
 				<li><strong>Ch. 7–8:</strong> Constant Coefficient Equations and Undetermined Coefficients.</li>
@@ -341,7 +341,7 @@
 				One of the major advantages of authoring in PreTeXt is how easily interactive components integrate into the flow of the book.
 			</p>
 
-			<ul>
+			<ul pause="yes">
 				<li>Embedded exercises with automatic feedback (via Runestone or WeBWorK).</li>
 				<li>Dynamic visualizations for slope fields, phase lines, and numerical approximations.</li>
 				<li>Expandable “check your understanding” questions built right into the narrative.</li>
@@ -356,7 +356,7 @@
 		<!-- <slide>
 			<title>Challenges and Lessons Learned</title>
 
-			<ul>
+			<ul pause="yes">
 				<li>PreTeXt is powerful but very precise — small syntax errors matter!</li>
 				<li>Designing interactive pedagogy requires careful balance: not everything benefits from being “clickable.”</li>
 				<li>Version control (Git) quickly became essential for managing growth.</li>
@@ -374,7 +374,7 @@
 				<line>Future Directions</line>
 			</title>
 
-			<ul>
+			<ul pause="yes">
 				<li>Adding more computational tools — numerical solvers and phase-plane interactives.</li>
 				<li>Integrating with institutional LMS systems for smoother assignment workflows.</li>
 				<li>Exploring audio narration and accessibility extensions for broader reach.</li>
@@ -407,11 +407,11 @@
 		<slide>
 			<p>
 				Textbook Highlight Notes:
-				<dl>
+				<dl pause="yes">
 					<li>
 						<title>What is a Differential Equation?</title>
 						<p>
-							<ul>
+							<ul pause="yes">
 								<li>Audio</li>
 							</ul>
 						</p>
@@ -419,7 +419,7 @@
 					<li>
 						<title>Order &amp; Linearity</title>
 						<p>
-							<ul>
+							<ul pause="yes">
 								<li>Checkpoint 13 (Fill-in the Blank)</li>
 								<li>Checkpoint 14 (Matching)</li>
 								<li>Checkpoint 16 (Click-Area)</li>
@@ -429,7 +429,7 @@
 					<li>
 						<title>Chapter 1 Exercises</title>
 						<p>
-							<ul>
+							<ul pause="yes">
 								<li>Classification 1</li>
 								<li>Classification 3</li>
 							</ul>
@@ -438,7 +438,7 @@
 					<li>
 						<title>Visualizing Solutions</title>
 						<p>
-							<ul>
+							<ul pause="yes">
 								<li>Interactive: Visualizing Solutions</li>
 								<li>Follow-up Questions</li>
 							</ul>
@@ -447,7 +447,7 @@
 					<li>
 						<title>Direct Integration</title>
 						<p>
-							<ul>
+							<ul pause="yes">
 								<li>Checkpoint 46 (WebWork)</li>
 								<li>Follow-up Questions</li>
 							</ul>
