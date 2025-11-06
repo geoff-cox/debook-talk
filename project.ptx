@@ -3,6 +3,6 @@
 <project ptx-version="2">
   <targets>
     <target name="slides" source="slides.ptx" format="revealjs" output-filename="slides.html" deploy-dir="talk"/>
-    <target name="guide"  source="guide.ptx"  format="html"     publication="publication.ptx" deploy-dir="guide"/>
+    <target name="guide"  source="guide.ptx"  format="html"     publication="publication-guide.ptx" deploy-dir="guide"/>
   </targets>
 </project>
