@@ -263,7 +263,7 @@
 				
 				<subsubsection xml:id="talk-demo-geogebra">
 					<title>GeoGebra</title>
-					<interactive geogebra="KGn2d4Qd" width="100%" aspect="2:1" reset-icon="yes"/>
+					<interactive geogebra="KGn2d4Qd" width="100%" aspect="3:1" reset-icon="yes"/>
 				</subsubsection>
 
 				<subsubsection xml:id="talk-demo-desmos">
@@ -463,13 +463,13 @@
 						</code>
 					</program>
 
-					<p>
+					<!-- <p>
 						If your book is on Runestone server, you can also include questions. Here is an example:
 						<url href="https://runestone.academy/ns/books/published/PTXSB/code-lens.html#program-codelens-python-questions">CodeLens with questions</url>.
-					</p>
+					</p> -->
 				</subsubsection>
 
-				<subsubsection>
+				<!-- <subsubsection>
 					<title>✔ Coding with Datasets</title>
 
 					<p>
@@ -518,7 +518,7 @@
 						</code>
 					</program>
 
-				</subsubsection>
+				</subsubsection> -->
 
 			</subsection>
 
