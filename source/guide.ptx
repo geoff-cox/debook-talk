@@ -8,7 +8,7 @@
 		<title>Getting Started with <pretext /></title>
 		<subtitle>A Minimal Setup Tutorial &amp; Feature Sample</subtitle>
 
-		<section>
+		<section xml:id="workspace-setup">
 			<title>Workspace Setup</title>
 			<p>
 				The quickest and easiest way to get started with <pretext /> is through GitHub.
@@ -98,7 +98,7 @@
 			</p>
 		</section>
 
-		<section>
+		<section xml:id="minimal-project">
 			<title>A Minimal Project</title>
 
 			<introduction>
@@ -186,7 +186,7 @@
 			</subsection>
 		</section>
 	
-		<section>
+		<section xml:id="having-a-look-around">
 			<title>Having A Look Around</title>
 			<p>
 				Once your Codespace loads, you'll see a ready-to-use <pretext /> project folder.
@@ -273,7 +273,7 @@
 
 				<subsubsection xml:id="talk-demo-google-maps">
 					<title>Google Maps</title>
-					<interactive iframe="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50444.940387112554!2d-79.43611501305388!3d37.794520994688966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1762270602842!5m2!1sen!2sus" width="95%" aspect="2:1"/>
+					<interactive iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.286430663061!2d-77.02612656602201!3d38.90499299644047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7ed3715b137%3A0x32771de147fa5350!2sWalter%20E.%20Washington%20Convention%20Center!5e0!3m2!1sen!2sus!4v1766949594608!5m2!1sen!2sus" width="95%" aspect="2:1"/>
 				</subsubsection>
 			</subsection>
 

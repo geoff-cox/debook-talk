@@ -1,5 +1,5 @@
 # This file was automatically generated with PreTeXt 2.29.2.
-pretext == 2.29.2
+pretext == 2.33.2
 # requirements.txt — for PreTeXt projects
 
 # Core: PreTeXt CLI (author, build, deploy)

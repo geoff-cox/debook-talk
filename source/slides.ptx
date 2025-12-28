@@ -5,20 +5,36 @@
 	<docinfo/>
 
 	<slideshow>
-		<title>Authoring in PreText</title>
-		<subtitle>Compuational Seminar</subtitle>
+		<title>Designing a Student-Centered Open Textbook for Differential Equations</title>
+		<subtitle>Blending Narrative, Technology, and Pedagogy</subtitle>
 
 		<frontmatter>
 			<bibinfo>
 				<author>
-					<personname>Geoffrey Cox, PhD.</personname>
-					<!-- <department>Applied Mathematics</department> -->
-					<institution>Virginia Military Institute</institution>
+					<personname>Dr. Geoff Cox, Dr. Blain Patterson</personname>
+
+					<department>Applied Mathematics, </department>
+
+					<institution><p>Virginia Military Institute</p></institution>
 				</author>
 				<date>
 					Last Updated: <today />
 				</date>
 			</bibinfo>
+
+			<abstract>
+				<p>
+					Ordinary differential equations (ODEs) form a gateway course for many STEM majors, yet students often encounter steep conceptual and technical barriers when transitioning from calculus to differential equations. This talk presents a case study in rethinking ODE pedagogy through the development of an open-access textbook that blends student-centered narrative, scaffolded checkpoints, interactive technology, and structured workflows.
+				</p>
+
+				<p>
+					The project's guiding question is: How can textbook design itself function as an innovation in teaching and learning? Each chapter is built around conversational explanations, step-by-step workflow and reading checkpoints that emphasize concepts and procedure. Interactive visualizations add a dynamic perspective to simulate a classroom experience.
+				</p>
+
+				<p>
+					By framing the textbook not only as a resource but as a pedagogical experiment, this work highlights the role of curriculum design in shaping student experiences of ODEs and opens space for dialogue about how innovative resources can transform undergraduate mathematics education.
+				</p>
+			</abstract>
 
 			<titlepage>
 				<titlepage-items/>
@@ -29,28 +45,35 @@
 			<title>Summary</title>
 			<dl pause="no">
 				<li>
-					<title>✔ Part I: PreTeXt</title>
+					<title>✔ Part I: Writing and Publishing an Open-Source Textbook</title>
 					<p>
-						Introduction to PreText - What it is and why you might want to use it, and sample of some of its interactive features.  
+						<ul>
+							<li>Writing ➜ <pretext /> (Authoring Platform)</li>
+							<li>Publishing ➜ Runestone Academy (Hosting Platform)</li>
+							<li>What are these platforms? What can they do? How do you get started?</li>
+						</ul>
 					</p>
 				</li>
 				<li>
-					<title>✔ Part II: Quick Start Guide (if there's interest)</title>
+					<title>✔ Part II: Use Cases</title>
 					<p>
-						Preview the steps involved in setting up a minimal <pretext /> workspace and creating a simple HTML and PDF document.  
+						<ul>
+							<li>Differential Equations Textbook</li>
+							<li>Course Homepage</li>
+						</ul>
 					</p>
 				</li>
 				<li>
-					<title>✔ Part III: Use Cases</title>
+					<title>✔ Part III: Pedagogical Impact</title>
 					<p>
-						Some things I've done with <pretext />.
+						<ul>
+							<li>Student Usage Data.</li>
+							<li>Student Survey.</li>
+						</ul>
 					</p>
 				</li>
 				<li>
-					<title>✔ Resources</title>
-				</li>
-				<li>
-					<title>✔ Questions?</title>
+					<title>✔ Next Steps &amp; Questions?</title>
 				</li>
 			</dl>
 		</slide>
@@ -124,7 +147,6 @@
 				</li>
 				<li><title>Requirements</title>
 					<p>
-						Willness to become familiar with
 						<ul pause="no">
 							<li>GitHub (basic commands).</li>
 							<li>PreText Syntax (think latex with html &lt;tags&gt;).</li>
@@ -143,11 +165,11 @@
 
 			<dl pause="no">
 				<li>
-					<title>Embedded Interactives (3rd Party)</title>
+					<title>✦ Embedded Interactives (3rd Party)</title>
 					<line>🧮 GeoGebra, Desmos, Google Maps, ...</line>
 				</li>
 				<li>
-					<title>Interactive Exercises</title>
+					<title>✦ Interactive Exercises</title>
 					<line>📝True/False,</line>
 					<line>📝Multiple-Choice,</line>
 					<line>📝Matching,</line>
@@ -156,15 +178,15 @@
 					<line>📝Short Answer, ...</line>
 				</li>
 				<li>
-					<title>Interactive Coding</title>
+					<title>✦ Interactive Coding</title>
 				</li>
 				<li>
-					<title>Authored Interactives (Advanced)</title>
+					<title>✦ Authored JavaScript Interactives (Advanced)</title>
 				</li>			
 			</dl>
 
 			<p>
-				Let's check out a few: <url href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html">Interactive Elements Gallery</url>.
+				<url href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html">Interactive Elements Gallery</url>.
 			</p>
 		</slide>
 
