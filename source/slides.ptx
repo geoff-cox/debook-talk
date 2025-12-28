@@ -6,40 +6,9 @@
 
 	<slideshow>
 		<title>Designing a Student-Centered Open Textbook for Differential Equations</title>
-		<subtitle>Blending Narrative, Technology, and Pedagogy</subtitle>
+		<subtitle>Joint Mathematics Meetings, 2026</subtitle>
 
-		<frontmatter>
-			<bibinfo>
-				<author>
-					<personname>Dr. Geoff Cox, Dr. Blain Patterson</personname>
-
-					<department>Applied Mathematics, </department>
-
-					<institution><p>Virginia Military Institute</p></institution>
-				</author>
-				<date>
-					Last Updated: <today />
-				</date>
-			</bibinfo>
-
-			<abstract>
-				<p>
-					Ordinary differential equations (ODEs) form a gateway course for many STEM majors, yet students often encounter steep conceptual and technical barriers when transitioning from calculus to differential equations. This talk presents a case study in rethinking ODE pedagogy through the development of an open-access textbook that blends student-centered narrative, scaffolded checkpoints, interactive technology, and structured workflows.
-				</p>
-
-				<p>
-					The project's guiding question is: How can textbook design itself function as an innovation in teaching and learning? Each chapter is built around conversational explanations, step-by-step workflow and reading checkpoints that emphasize concepts and procedure. Interactive visualizations add a dynamic perspective to simulate a classroom experience.
-				</p>
-
-				<p>
-					By framing the textbook not only as a resource but as a pedagogical experiment, this work highlights the role of curriculum design in shaping student experiences of ODEs and opens space for dialogue about how innovative resources can transform undergraduate mathematics education.
-				</p>
-			</abstract>
-
-			<titlepage>
-				<titlepage-items/>
-			</titlepage>
-		</frontmatter>
+		<xi:include href="./frontmatter.ptx" />
 
 		<slide label="summary">
 			<title>Summary</title>
