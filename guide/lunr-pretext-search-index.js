@@ -1,45 +1,45 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "root-1-2-3",
+  "id": "workspace-setup",
   "level": "1",
-  "url": "root-1-2-3.html",
+  "url": "workspace-setup.html",
   "type": "Section",
   "number": "",
   "title": "Workspace Setup",
   "body": " Workspace Setup  The quickest and easiest way to get started with PreTeXt is through GitHub. Using a GitHub Codespace means you don't need to install anything locally — everything runs in your browser with all dependencies preconfigured. Here's how to set it up:     Create a GitHub Account    Go to GitHub .  Create an account (it's free for individual users).      Import the PreTeXt Codespace Template    Visit the official PreTeXt Codespace repository on GitHub.     Click    and choose    Create a New Repository .    In the new window, fill in:  Repository name  Description — optional.  Visibility — choose Public or Private .  Then click Create repository . GitHub will copy the official PreTeXt codespace into your account as a new repo.       Start Your Codespace    If you weren't automatically redirected, go to your GitHub account and open the new repository you just created.     Click    and open the Codespaces tab.         In this tab, click       The Codespace will begin setting up. This may take a few minutes the first time. When complete, you'll have a fully functional PreTeXt workspace running in your browser.       "
 },
 {
-  "id": "root-1-2-4-3",
+  "id": "minimal-project-3",
   "level": "1",
-  "url": "root-1-2-4-3.html",
+  "url": "minimal-project-3.html",
   "type": "Subsection",
   "number": "",
   "title": "Creating a New Book",
   "body": " Creating a New Book     Creating a New Pretext Project    Hit F1 to open the command palette.  Type pretext .  Scroll down and select PreTeXt: New Project .  Select the type of document you want to create. For this demo, we'll choose book .  Select the location of your project, but the default should be the one you want.       Completing these steps will populate your codespace with all the files you need to author in PreTeXt . In fact, it also provides a template that build right-away.   "
 },
 {
-  "id": "root-1-2-4-4",
+  "id": "minimal-project-4",
   "level": "1",
-  "url": "root-1-2-4-4.html",
+  "url": "minimal-project-4.html",
   "type": "Subsection",
   "number": "",
   "title": "Your First Build",
   "body": " Your First Build     Building A Pretext Book     Locate the ▷ PreTeXt button on the bottom tool bar.      To build the book, select Build default target .  The default is the html version of the book. Let's also build a pdf version of the book as well.  Click on the ▷ PreTeXt button and select Build Another Target followed by the print option.  The results of both of these builds should now be in the output folder.       "
 },
 {
-  "id": "root-1-2-4-5",
+  "id": "minimal-project-5",
   "level": "1",
-  "url": "root-1-2-4-5.html",
+  "url": "minimal-project-5.html",
   "type": "Subsection",
   "number": "",
   "title": "Viewing the Output",
   "body": " Viewing the Output     Viewing A Pretext Book    Now, we can view both the html and pdf version of the template book.  To view them, click on the ▷ PreTeXt button again and select View Full Document then choose either the web or print option.  In either case, a new broswer window should open. If the html doesn't display in the broswer, try refreshing the page.       "
 },
 {
-  "id": "root-1-2-5",
+  "id": "having-a-look-around",
   "level": "1",
-  "url": "root-1-2-5.html",
+  "url": "having-a-look-around.html",
   "type": "Section",
   "number": "",
   "title": "Having A Look Around",

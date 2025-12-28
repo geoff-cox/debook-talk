@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2025-11-06T15:36:51-05:00       *-->
+<!--*       on 2025-12-28T14:24:08-05:00       *-->
 <!--*   A recent stable commit (2022-07-01):   *-->
 <!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
 <!--*                                          *-->
@@ -11,7 +11,7 @@
 <html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Authoring in PreText</title>
+<title>Designing a Student-Centered Open Textbook for Differential Equations</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
@@ -169,33 +169,44 @@ div[style*="display:table-cell"] img {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="slides">
-<section><section><h1>Authoring in PreText</h1>
-<h2>Compuational Seminar</h2>
+<section><section><h1>Designing a Student-Centered Open Textbook for Differential Equations</h1>
+<h2>Blending Narrative, Technology, and Pedagogy</h2>
 <table>
-<tr><th align="center" style="border-bottom: 0px;">Geoffrey Cox, PhD.</th></tr>
-<tr><td align="center" style="border-bottom: 0px;">Virginia Military Institute</td></tr>
+<tr><th align="center" style="border-bottom: 0px;">Dr. Geoff Cox, Dr. Blain Patterson</th></tr>
+<tr><td align="center" style="border-bottom: 0px;">Applied Mathematics, Virginia Military Institute</td></tr>
 <tr><td align="center"></td></tr>
 </table>
-<h4><div class="date">Last Updated: November 6, 2025</div></h4></section></section><section><h3>Summary</h3>
+<h4><div class="date">Last Updated: December 28, 2025</div></h4></section><section><h3>Abstract</h3>
+<div align="left">
+<p>Ordinary differential equations (ODEs) form a gateway course for many STEM majors, yet students often encounter steep conceptual and technical barriers when transitioning from calculus to differential equations. This talk presents a case study in rethinking ODE pedagogy through the development of an open-access textbook that blends student-centered narrative, scaffolded checkpoints, interactive technology, and structured workflows.</p>
+<p>The project’s guiding question is: How can textbook design itself function as an innovation in teaching and learning? Each chapter is built around conversational explanations, step-by-step workflow and reading checkpoints that emphasize concepts and procedure. Interactive visualizations add a dynamic perspective to simulate a classroom experience.</p>
+<p>By framing the textbook not only as a resource but as a pedagogical experiment, this work highlights the role of curriculum design in shaping student experiences of ODEs and opens space for dialogue about how innovative resources can transform undergraduate mathematics education.</p>
+</div></section></section><section><h3>Summary</h3>
 <div align="left"><dl class="description-list">
 <div>
-<dt>✔ Part I: PreTeXt</dt>
-<dd><p>Introduction to PreText - What it is and why you might want to use it, and sample of some of its interactive features.</p></dd>
+<dt>✔ Part I: Writing and Publishing an Open-Source Textbook</dt>
+<dd><p><ul class="disc" id="summary-2-1-2-1">
+<li>Writing ➜ PreTeXt (Authoring Platform)</li>
+<li>Publishing ➜ Runestone Academy (Hosting Platform)</li>
+<li>What are these platforms? What can they do? How do you get started?</li>
+</ul></p></dd>
 </div>
 <div>
-<dt>✔ Part II: Quick Start Guide (if there’s interest)</dt>
-<dd><p>Preview the steps involved in setting up a minimal PreTeXt workspace and creating a simple HTML and PDF document.</p></dd>
+<dt>✔ Part II: Use Cases</dt>
+<dd><p><ul class="disc" id="summary-2-2-2-1">
+<li>Differential Equations Textbook</li>
+<li>Course Homepage</li>
+</ul></p></dd>
 </div>
 <div>
-<dt>✔ Part III: Use Cases</dt>
-<dd><p>Some things I’ve done with PreTeXt.</p></dd>
+<dt>✔ Part III: Pedagogical Impact</dt>
+<dd><p><ul class="disc" id="summary-2-3-2-1">
+<li>Student Usage Data.</li>
+<li>Student Survey.</li>
+</ul></p></dd>
 </div>
 <div>
-<dt>✔ Resources</dt>
-<dd></dd>
-</div>
-<div>
-<dt>✔ Questions?</dt>
+<dt>✔ Next Steps &amp; Questions?</dt>
 <dd></dd>
 </div>
 </dl></div></section><section><h3>Part I: PreTeXt - What is PreTeXt?</h3>
@@ -233,7 +244,7 @@ div[style*="display:table-cell"] img {
 </div>
 <div>
 <dt>Requirements</dt>
-<dd><p>Willness to become familiar with<ul class="disc" id="p1-pretext-getting-started-2-2-2-1">
+<dd><p><ul class="disc" id="p1-pretext-getting-started-2-2-2-1">
 <li>GitHub (basic commands).</li>
 <li>PreText Syntax (think latex with html &lt;tags&gt;).</li>
 <li>Minimal command line use (building and viewing). Even less if you use Option 1.</li>
@@ -243,23 +254,23 @@ div[style*="display:table-cell"] img {
 <div align="left">
 <dl class="description-list">
 <div>
-<dt>Embedded Interactives (3rd Party)</dt>
+<dt>✦ Embedded Interactives (3rd Party)</dt>
 <dd>🧮 GeoGebra, Desmos, Google Maps, ...</dd>
 </div>
 <div>
-<dt>Interactive Exercises</dt>
+<dt>✦ Interactive Exercises</dt>
 <dd>📝True/False,<br>📝Multiple-Choice,<br>📝Matching,<br>📝Clickable-Area,<br>📝Fill-in-the-Blank,<br>📝Short Answer, ...</dd>
 </div>
 <div>
-<dt>Interactive Coding</dt>
+<dt>✦ Interactive Coding</dt>
 <dd></dd>
 </div>
 <div>
-<dt>Authored Interactives (Advanced)</dt>
+<dt>✦ Authored JavaScript Interactives (Advanced)</dt>
 <dd></dd>
 </div>
 </dl>
-<p>Let’s check out a few: <a class="external" href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html" target="_blank">Interactive Elements Gallery</a>.</p>
+<p><a class="external" href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html" target="_blank">Interactive Elements Gallery</a>.</p>
 </div></section><section><h3>Part II: Quick Start Guide</h3>
 <div align="left"><p>If there is interest, I can provide a preview of the steps needed to get up and running with PreTeXt, including:<ul class="disc" id="p2-quick-start-2-2">
 <li>Setting up a basic PreTeXt workspace,</li>
