@@ -25,12 +25,12 @@
 			</ul>
 
 			<p>
-				This talk describes how I designed a student-centered, open, interactive textbook—and the tooling that made it sustainable.
+				This talk describes the design of a student-centered, interactive textbook and the tools that made it sustainable.
 			</p>
 		</slide>
 
-		<slide label="summary">
-			<title>Talk Roadmap</title>
+		<slide label="overview">
+			<title>Overview</title>
 
 			<dl pause="no">
 				<li>
@@ -48,432 +48,171 @@
 			</dl>
 		</slide>
 
-
-		<slide label="summary">
-			<title>Summary</title>
-			<dl pause="no">
-				<li>
-					<title>✔ Part I: Writing &amp; Publishing an Open-Source Textbook (8 mins)</title>
-					<p>
-						<ul>
-							<li>Writing ➜ <pretext /> (Authoring Tools)</li>
-							<li>Publishing ➜ Runestone Academy (Hosting Platform)</li>
-							<li>Pros &amp; Cons, Features, and Use Cases</li>
-						</ul>
-					</p>
-				</li>
-				<li>
-					<title>✔ Part II: Differential Equations Textbook (12 mins)</title>
-					<p>
-						<ul>
-							<li>Design Philosophy and Features</li>
-							<li>Quick Demonstration</li>
-						</ul>
-					</p>
-				</li>
-				<li>
-					<title>✔ Part III: Pedagogical Reflection (5 mins)</title>
-					<p>
-						<ul>
-							<li>Student Usage and Survey Data</li>
-							<li>Focus Groups and Interviews</li>
-						</ul>
-					</p>
-				</li>
-				<li>
-					<title>✔ Questions (5 mins)</title>
-				</li>
-			</dl>
-		</slide>
-
-<slide label="p1-pretext-what-is-it">
-  <title>Part I: What Is PreTeXt?</title>
-
-  <p>
-    PreTeXt is an open-source authoring system for writing structured, accessible, and interactive educational materials.
-  </p>
-
-  <dl pause="no">
-    <li>
-      <title>Write once, publish everywhere</title>
-      <p>Web, PDF, ePub, large print, and Braille from a single source.</p>
-    </li>
-    <li>
-      <title>Pedagogy-aware structure</title>
-      <p>Examples, exercises, definitions, and cross-references are first-class objects.</p>
-    </li>
-    <li>
-      <title>Accessibility by design</title>
-      <p>Screen-reader friendly, responsive layouts, and dark/light modes.</p>
-    </li>
-  </dl>
-
-  <p>
-    The key shift is that PreTeXt handles structure and presentation—so authors can focus on teaching.
-  </p>
-</slide>
-
-
 		<slide label="p1-pretext-what-is-it">
-			<title>
-				<line>Part I: PreTeXt - What is PreTeXt?</line>
-			</title>
+			<title>Part I: What Is PreTeXt?</title>
 
 			<p>
-				PreTeXt is an open-source authoring language designed for writing textbooks, articles, lecture notes, and course materials.
+				PreTeXt is an open-source authoring system for writing structured, accessible, and interactive educational materials.
 			</p>
+
 			<dl pause="no">
 				<li>
-					<title>✦ <em>Write once, publish everywhere</em></title>
-					<p>
-						From one source you can produce web, PDF, ePub, and Braille versions.
-					</p>
+					<title>Write once, publish everywhere</title>
+					<p>Web, PDF, ePub, large print, and Braille from a single source.</p>
 				</li>
 				<li>
-					<title>✦ <em>Built-in Interactive Components:</em></title>
-					<p>
-						Supplement narrative with interactive reading questions, coding tasks, or visualization tools.
-					</p>
+					<title>Pedagogy-aware structure</title>
+					<p>Examples, exercises, definitions, and loads of interactive features.</p>
 				</li>
 				<li>
-					<title>✦ <em>Accessibility Out of the Box:</em></title>
-					<p>
-						PreTeXt is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.
-					</p>
+					<title>Accessibility by design</title>
+					<p>Screen-reader friendly, responsive layouts, and dark/light modes.</p>
 				</li>
 			</dl>
+
 			<p>
-				Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, PreTeXt is ready for just about any workflow.
+				Whether you want an interactive textbook, an research hub, or lecture notes, PreTeXt is ready for most workflows.
 			</p>
 		</slide>
 
 		<slide label="p1-pretext-getting-started">
-			<title>
-				<line>Part I: PreTeXt - What do you Need?</line>
-			</title>
+			<title>Part I: Getting Started with PreTeXt</title>
 
 			<dl pause="no">
-				<li><title>Working Environment</title>
+				<li>
+					<title>Authoring Environment</title>
 					<p>
 						<ul pause="no">
-							<li>
-								Option 1: Github + Codespaces
-							</li>
-							<li> 
-								<p>
-									Option 2: Local Installation
-									<ul pause="no">
-										<li>VSCode, Python, Latex,</li>
-										<li>A few more depending on your use case.</li>
-									</ul>
-								</p>
-							</li>
+							<li>GitHub + Codespaces (recommended for beginners)</li>
+							<li>Local setup using VS Code and Python</li>
 						</ul>
 					</p>
 				</li>
-				<li><title>Requirements</title>
+				<li>
+					<title>What You Need to Learn</title>
 					<p>
 						<ul pause="no">
-							<li>GitHub (basic commands).</li>
-							<li>PreTeXt Syntax (think latex with html &lt;tags&gt;).</li>
-							<li>Minimal command line use (building and viewing). Even less if you use Option 1.</li>
+							<li>Basic Git workflow</li>
+							<li>XML-style markup (closer to HTML than LaTeX)</li>
+							<li>Minimal command-line usage</li>
 						</ul>
 					</p>
 				</li>
-
 			</dl>
+
+			<p>
+				The learning curve is real, but front-loaded, and well-supported by the community.
+			</p>
 		</slide>
-
-<slide label="p1-pretext-getting-started">
-  <title>Getting Started with PreTeXt</title>
-
-  <dl pause="no">
-    <li>
-      <title>Authoring Environment</title>
-      <ul pause="no">
-        <li>GitHub + Codespaces (recommended for beginners)</li>
-        <li>Local setup using VS Code and Python</li>
-      </ul>
-    </li>
-    <li>
-      <title>What You Need to Learn</title>
-      <ul pause="no">
-        <li>Basic Git workflow</li>
-        <li>XML-style markup (closer to HTML than LaTeX)</li>
-        <li>Minimal command-line usage</li>
-      </ul>
-    </li>
-  </dl>
-
-  <p>
-    The learning curve is real—but front-loaded, and well-supported by the community.
-  </p>
-</slide>
-
 
 		<slide label="p1-pretext-features">
-			<title>
-				<line>Part I: PreTeXt - Interactive Features</line>
-			</title>
+			<title>Part I: Interactive Capabilities</title>
 
 			<dl pause="no">
 				<li>
-					<title>✦ Embedded Interactives</title>
-					<line>🧮 GeoGebra, Desmos, Google Maps, ...</line>
+					<title>Third-Party Integration</title>
+					<p>GeoGebra, Desmos, Google maps, etc..</p>
 				</li>
 				<li>
-					<title>✦ Interactive Exercises</title>
-					<line>📝True/False,</line>
-					<line>📝Multiple-Choice,</line>
-					<line>📝Matching,</line>
-					<line>📝Clickable-Area,</line>
-					<line>📝Fill-in-the-Blank,</line>
-					<line>📝Short Answer, ...</line>
+					<title>Interactive Exercises</title>
+					<p>Low-stakes reading questions, formative checks, and auto- and immediate-feedback.</p>
 				</li>
 				<li>
-					<title>✦ Interactive Coding</title>
+					<title>Advanced Integration</title>
+					<p>Python, Sage, and authored JavaScript for advanced workflows.</p>
 				</li>
-				<li>
-					<title>✦ Authored JavaScript Interactives (Advanced)</title>
-				</li>			
 			</dl>
 
 			<p>
-				<url href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html">Interactive Elements Gallery</url>.
+				Interactivity is optional, but when used intentionally, it changes how students read.
+			</p>
+
+			<p>
+				<url href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html">Interactive Samples Gallery</url>.
 			</p>
 		</slide>
 
-<slide label="p1-pretext-features">
-  <title>Interactive Capabilities</title>
-
-  <dl pause="no">
-    <li>
-      <title>Embedded Interactives</title>
-      <p>GeoGebra, Desmos, maps, simulations, and custom tools.</p>
-    </li>
-    <li>
-      <title>Interactive Exercises</title>
-      <p>Low-stakes reading questions, formative checks, and auto-feedback.</p>
-    </li>
-    <li>
-      <title>Computational Integration</title>
-      <p>Python, Sage, and authored JavaScript for advanced workflows.</p>
-    </li>
-  </dl>
-
-  <p>
-    Interactivity is optional—but when used intentionally, it changes how students read.
-  </p>
-</slide>
-
-
-		<slide label="p1-pros-cons">
-			<title>Pros and Cons, Challenges and Lessons Learned</title>
+		<slide label="p2-transition">
+			<title>Part II: From Tool to Textbook</title>
 
 			<p>
-				PreTeXt isn't just a way to write textbooks — it's a way to think about teaching computationally.
-				It allows instructors to create structured, interactive, and sustainable materials that grow over time.
+				Rather than starting with features, I started with a question:
 			</p>
 
 			<p>
-				PreTeXt handled all the organization, structure, and rendering —
-				allowing me to focus entirely on teaching, not typesetting.
+				<em>What would a differential equations textbook look like if it were written entirely for students?</em>
+			</p>
+
+		</slide>
+
+		<slide label="p2-design">
+			<title>Part II: Student-Centered Design Principles</title>
+
+			<p>
+				<line>🔸Conversational, instructor-like tone</line>
+				<line>🔸Short narrative blocks—no walls of text</line>
+				<line>🔸Frequent, low-stakes reflection points</line>
+				<line>🔸low buy-in reading questions </line>
+				<line>🔸Interative Visualizations for dynamic instruction</line>
+				<line>🔸Audio narration for accessibility</line>
+			</p>
+
+			<p>
+				The goal is not more interaction, but better-timed interaction.
+			</p>
+
+			<line>👉 <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">Differential Equations Textbook</url></line>
+
+		</slide>
+
+		<slide label="p3-pedagogical-reflection">
+			<title>Part III: Pedagogical Assessment &amp; Reflection</title>
+
+			<p>
+				Hosting platforms, such as , opens opportunities for 	
 			</p>
 
 			<ul pause="no">
-				<li>Automatic numbering for examples, definitions, and equations.</li>
-				<li>Cross-references and links update themselves.</li>
-				<li>Consistent formatting for exercises, solutions, and asides.</li>
-				<li>Built-in accessibility features ensure all students can navigate the content.</li>
-				<li>Web output includes interactivity and mobile-friendly design.</li>
+				<li>Processing of student data via hosting platforms, like Runestone Academy.</li>
+				<li>Students regularly used reading questions as navigation cues.</li>
+				<li>Audio narration supported accessibility and review.</li>
+				<li>Interactive visuals reduced reliance on office hours for conceptual issues.</li>
 			</ul>
 
 			<p>
-				In short: PreTeXt made a solo-authored, full-scale interactive textbook realistic.
+				Ongoing survey and focus group data are informing future revisions.
 			</p>
-
-			<ul pause="no">
-				<li>Integrates with institutional LMS systems for smooth assignment workflows.</li>
-				<li>Sharing the source publicly so others can adapt or remix sections for their own courses.</li>
-				<li>Designing interactive pedagogy requires careful balance: not everything benefits from being “clickable.”</li>
-				<li>Managing a large code base and using version control (Git) can be daunting for beginners.</li>
-			</ul>
-
-			<p>
-				The main takeaway: the learning curve is worth it. Once you build momentum, authoring feels natural and sustainable.
-			</p>
-		</slide>
-
-<slide label="transition">
-  <title>From Tool to Textbook</title>
-
-  <p>
-    Rather than starting with features, I started with a question:
-  </p>
-
-  <p>
-    <em>What would a differential equations textbook look like if it were written entirely for students?</em>
-  </p>
-</slide>
-
-
-		<slide label="p2-uses-cases">
-			<title>
-				<line>Part II: Use Cases</line>
-			</title>
-
-			<p>
-				<line>▷ This slideshow.</line>
-				<line>▷ <url href="https://geoff-cox.github.io/debook-talk/talk/hub.html">Presentation Hub</url></line>
-				<line>▷ <url href="https://geoff-cox.github.io/matlab-course/ma310/frontmatter.html">Course Homepage</url></line>
-				<line>▷ <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">Differential Equations Textbook</url></line>
-				<dl pause="no">
-					<li>
-						<title><em>Student-Facing Design Philosophy:</em></title>
-						<p>
-							<line>🔸conversational tone </line>
-							<line>🔸minimal jargon </line>
-							<line>🔸no walls of text </line>
-							<line>🔸low buy-in reading questions </line>
-							<line>🔸audio option </line>
-							<line>🔸targeted reflection checkpoints </line>
-							<line>🔸visualization tools </line>
-						</p>
-					</li>
-				</dl>
-			</p>
-		</slide>
-
-		<slide label="p2-why-write-a-book">
-			<title>Why Write a New Book?</title>
-
-			<p>
-				Every instructor teaching undergraduate mathematics faces the same challenge:
-				finding a text that balances clarity, rigor, and accessibility.
-			</p>
-
-			<ul pause="no">
-				<li>Many commercial texts are expensive and overly formal.</li>
-				<li>Free online notes exist, but often lack structure or interactivity.</li>
-				<li>I wanted something approachable — conversational, visually clear, and ready for digital classrooms.</li>
-			</ul>
-
-			<p>
-				So I decided to write the book I always wanted to teach from.
-			</p>
-
-			<p>
-				The goal is to make this book a model for how open, interactive materials can evolve within a department.
-			</p>
-		</slide>
-
-<slide label="p2-design-philosophy">
-  <title>Student-Centered Design Principles</title>
-
-  <ul pause="no">
-    <li>Conversational, instructor-like tone</li>
-    <li>Short narrative blocks—no walls of text</li>
-    <li>Frequent, low-stakes reflection points</li>
-    <li>Visualizations embedded at moments of confusion</li>
-    <li>Optional audio narration for accessibility</li>
-  </ul>
-
-  <p>
-    The goal is not more interaction—but better-timed interaction.
-  </p>
-</slide>
-
-
-		<slide label="p2-design-philosphy-features">
-			<title>Design Philosophy &amp; Features</title>
-
-			<p>
-				One of the major advantages of authoring in PreTeXt is how easily interactive components integrate into the flow of the book.
-			</p>
-
-			<ul pause="no">
-				<li>Embedded exercises with automatic feedback (via Runestone or WeBWorK).</li>
-				<li>Audio narration and accessibility extensions for broader reach.</li>
-				<li>Dynamic visualizations for slope fields, phase lines, and numerical approximations.</li>
-				<li>Expandable “check your understanding” questions built right into the narrative.</li>
-				<li>Flexible integration with Jupyter or Sage for symbolic computation examples.</li>
-			</ul>
-
-			<p>
-				Students can read, compute, and explore — all in one place.
-			</p>
-		</slide>
-
-		<slide label="p3-pedigogical-reflection">
-			<title>Part III: Pedagogical Reflection</title>
 			
-			<dl>
-				<li>
-					<title>Survey</title>
-					<p><url href="https://forms.office.com/r/gLb4rexa7x">LINK</url></p>
-				</li>
-			</dl>
+			<p>Survey: <url href="https://forms.office.com/r/gLb4rexa7x">LINK</url></p>
 		</slide>
-<slide label="p3-pedagogical-reflection">
-  <title>Pedagogical Reflection</title>
 
-  <ul pause="no">
-    <li>Students regularly used reading questions as navigation cues.</li>
-    <li>Audio narration supported accessibility and review.</li>
-    <li>Interactive visuals reduced reliance on office hours for conceptual issues.</li>
-  </ul>
+		<slide label="closing">
+			<title>Closing Thoughts</title>
 
-  <p>
-    Ongoing survey and focus group data are informing future revisions.
-  </p>
-</slide>
+			<p>
+				Open textbooks are not just about cost, they are about control, adaptability, and pedagogy.
+			</p>
 
-<slide label="closing">
-  <title>Closing Thoughts</title>
+			<p>
+				PreTeXt made it possible to build something ambitious as a solo author and to keep improving it over time.
+			</p>
 
-  <p>
-    Open textbooks are not just about cost—they are about control, adaptability, and pedagogy.
-  </p>
-
-  <p>
-    PreTeXt made it possible to build something ambitious as a solo author—and to keep improving it over time.
-  </p>
-
-  <p>
-    If you have ever wanted to write the book you wish you had, the tooling is finally ready.
-  </p>
-</slide>
+			<p>
+				If you have ever wanted to write the book you wish you had, the tools are ready.
+			</p>
+		</slide>
 
 		<slide label="thanks-questions">
-			<title>Thank You!</title>
+			<title>Thank You</title>
 
 			<p>
-				Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.
+				Thank you for your time. I am happy to answer questions or discuss collaboration.
 			</p>
 
 			<p>
-				If you'd like to explore more or collaborate, feel free to reach out:
+				Questions?
 			</p>
-
-			<sidebyside widths="10% 60%">
-				<p>📧</p> <p><em>Email:</em> <url href="mailto:coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
-			</sidebyside>
-
-			<sidebyside width="20%">
-				<p>QUESTIONS?</p>
-			</sidebyside>
 		</slide>
-<slide label="thanks-questions">
-  <title>Thank You</title>
-
-  <p>
-    Thank you for your time. I am happy to answer questions or discuss collaboration.
-  </p>
-
-  <p>
-    Questions?
-  </p>
-</slide>
 
 	</slideshow>
 </pretext>

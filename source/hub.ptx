@@ -5,103 +5,55 @@
 	<docinfo/>
 
 	<article>
-		<title>Joint Mathematics Meetings 2026 Presentation Hub</title>
-		<subtitle>Resources, Links, &amp; A Tutorial</subtitle>
+		<title>Designing a Student-Centered Open Textbook for Differential Equations </title>
+		<subtitle>JMM 2026 Presentation Hub</subtitle>
 
 		<xi:include href="./frontmatter.ptx" />
 
-		<section xml:id="sec-">
+		<section xml:id="resources-links">
 			<title>Resources &amp; Links</title>
 
-			<paragraphs>
-				<title>Presenters</title>
+			<p>
+				<line>▷ <url href="https://geoff-cox.github.io/debook-talk/talk/hub.html">geoff-cox.github.io/debook-talk/talk/</url></line>
+			</p>
 
-				<p>
-					<dl width="narrow">
-						<li>
-							<title>Geoff</title>
-							<p><url href="mailto://coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
-						</li>
-						<li>
-							<title>Blain</title>
-							<p><url href="mailto://pattersonba@vmi.edu">pattersonba@vmi.edu</url></p>
-						</li>
-						<li>
-							<title>Slides</title>
-							<p><url href="https://geoff-cox.github.io/debook-talk/talk/slides.html">geoff-cox.github.io/debook-talk/talk/slides.html</url></p>
-						</li>
-					</dl>				
-				</p>
-			</paragraphs>
-
-			<paragraphs>
-				<title>Differential Equations Book</title>
-
-				<p>
-					<dl width="narrow">
-						<li>
-							<title>HTML</title>
-							<p><url href="https://runestone.academy/ns/books/published/debookrs/">runestone.academy/ns/books/published/debookrs/</url></p>
-						</li>
-						<li>
-							<title>Source</title>
-							<p><url href="https://github.com/geoff-cox/debookrs">github.com/geoff-cox/debookrs</url></p>
-						</li>
-						<li>
-							<title>Survey</title>
-							<p><url href="https://forms.office.com/r/gLb4rexa7x">forms.office.com/r/gLb4rexa7x</url></p>
-						</li>
-						<li>
-							<title>Responses</title>
-							<p>
-								<url href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&amp;origin=NeoPortalPage&amp;subpage=design&amp;id=4z1IZVEtrkChgq1uMCZB8ddSa3pknIFDmEUymlk3Pk9UNENTMllIT0VPSFVNME5CSkNTUzVEWjBUUi4u&amp;analysis=false&amp;topview=Presentation">Preliminary Responses (<m>n = 6</m>)</url>
-							</p>
-						</li>
-					</dl>
-				</p>
-			</paragraphs>
-
-			<paragraphs>
-				<title><pretext/></title>
-				
-				<p>
-					<dl width="narrow">
-						<li>
-							<title>Main</title>
-							<p><url href="https://pretextbook.org">pretextbook.org</url></p>
-						</li>
-						<li>
-							<title>Docs</title>
-							<p><url href="https://pretextbook.org/doc/guide/html/">pretextbook.org/doc/guide/html/</url></p>
-						</li>
-						<li>
-							<title>Forums</title>
-							<p><url href="https://pretextbook.org/community.html">pretextbook.org/community.html</url></p>
-						</li>
-					</dl>
-				</p>
-			</paragraphs>
-
-			<paragraphs>
-				<title>Runestone Academy</title>
-
-				<p>
-					<dl width="narrow">
-						<li>
-							<title>Main</title>
-							<p><url href="https://runestone.academy/">runestone.academy</url></p>
-						</li>
-						<li>
-							<title>Guide</title>
-							<p><url href="https://guide.runestone.academy">guide.runestone.academy</url></p>
-						</li>
-						<li>
-							<title>Videos</title>
-							<p><url href="https://www.youtube.com/@RunestoneInteractive/playlists">www.youtube.com/@RunestoneInteractive/playlists</url></p>
-						</li>
-					</dl>
-				</p>
-			</paragraphs>
+			<p>
+				<dl width="narrow">
+					<li>
+						<title>Contact</title>
+						<p>
+							<line>▷ <url href="mailto://coxgeoff@vmi.edu">Geoff: coxgeoff@vmi.edu</url></line>
+							<line>▷ <url href="mailto://pattersonba@vmi.edu">Blain: pattersonba@vmi.edu</url></line>
+						</p>
+					</li>
+					<li>
+						<title>Presentation</title>
+						<p>
+							<line>▷ <url href="https://geoff-cox.github.io/debook-talk/talk/slides.html">Slides</url></line>
+							<line>▷ <url href="https://geoff-cox.github.io/matlab-course/ma310/frontmatter.html">Course Homepage</url></line>
+							<line>▷ <url href="https://runestone.academy/ns/books/published/debookrs/">Viewable Textbook (HTML)</url></line>
+							<line>▷ <url href="https://github.com/geoff-cox/debookrs">Textbook Source (GitHub)</url></line>
+						</p>
+					</li>
+					<li>
+						<title><pretext/></title>
+							<line>▷ <url href="https://pretextbook.org">Homepage</url></line>
+							<line>▷ <url href="https://runestone.academy/ns/books/published/debookrs/"><pretext/> Guide</url></line>
+							<line>▷ <url href="https://pretextbook.org/community.html">Help Forums</url></line>
+					</li>
+					<li>
+						<title>Runestone Academy</title>
+							<line>▷ <url href="https://runestone.academy/">Homepage</url></line>
+							<line>▷ <url href="https://guide.runestone.academy">Users Guide</url></line>
+							<line>▷ <url href="https://www.youtube.com/@RunestoneInteractive/playlists">Videos</url></line>
+					</li>
+					<li>
+						<title>Student Survey</title>
+							<line>▷ <url href="https://forms.office.com/r/gLb4rexa7x">Questions</url></line>
+							<line>▷ <url href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&amp;origin=NeoPortalPage&amp;subpage=design&amp;id=4z1IZVEtrkChgq1uMCZB8ddSa3pknIFDmEUymlk3Pk9UNENTMllIT0VPSFVNME5CSkNTUzVEWjBUUi4u&amp;analysis=false&amp;topview=Presentation">Responses (<m>n = 6</m>)</url></line>
+					</li>
+				</dl>
+			</p>
 		</section>
 
 		<section xml:id="talk-demo-interactive-features">
@@ -717,6 +669,379 @@
 					</p>
 				</assemblage>
 			</subsection>
+		</section>
+
+		<section>
+			<title>Student Feedback Survey</title>
+
+			<subsection>
+				<title>Purpose and Consent</title>
+
+				<p>
+					This survey gathers feedback on your experience using an interactive
+					differential equations textbook. The goal is to understand how
+					interactive reading questions and other features influence student
+					learning and engagement.
+				</p>
+
+				<p>
+					Your participation is completely voluntary. You may skip any question
+					or stop at any time. Responses are collected anonymously, and no
+					identifying information will be shared or published.
+				</p>
+
+				<p>
+					Aggregated results may be used for educational research, presentations,
+					and peer-reviewed publication to improve interactive learning design.
+				</p>
+
+				<p>
+					Estimated time to complete this survey is five to ten minutes. By
+					proceeding, you indicate that you are at least eighteen years old and
+					consent to participate in this study.
+				</p>
+			</subsection>
+
+			<exercises>
+				<title>Background Information</title>
+
+				<exercise>
+					<title>What is your major?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Applied Mathematics</p></statement></choice>
+						<choice><statement><p>Physics</p></statement></choice>
+						<choice><statement><p>Engineering</p></statement></choice>
+						<choice><statement><p>Other</p></statement></choice>
+					</choices>
+				</exercise>
+
+				<exercise>
+					<title>What is your class standing?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Freshman</p></statement></choice>
+						<choice><statement><p>Sophomore</p></statement></choice>
+						<choice><statement><p>Junior</p></statement></choice>
+						<choice><statement><p>Senior</p></statement></choice>
+					</choices>
+				</exercise>
+
+				<exercise>
+					<title>Is this your first time taking a differential equations course?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Yes</p></statement></choice>
+						<choice><statement><p>No</p></statement></choice>
+					</choices>
+				</exercise>
+
+				<exercise>
+					<title>Have you used an interactive textbook in any course before?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Yes</p></statement></choice>
+						<choice><statement><p>No</p></statement></choice>
+					</choices>
+				</exercise>
+
+				<exercise>
+					<title>How do you primarily access this textbook?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Laptop</p></statement></choice>
+						<choice><statement><p>Desktop</p></statement></choice>
+						<choice><statement><p>Tablet</p></statement></choice>
+						<choice><statement><p>Phone</p></statement></choice>
+						<choice><statement><p>Other</p></statement></choice>
+					</choices>
+				</exercise>
+			</exercises>
+
+			<exercises>
+				<title>Engagement and Usage</title>
+
+				<exercise>
+					<title>How often do you use the interactive reading questions?</title>
+					<statement>
+						<p></p>
+					</statement>
+					<choices>
+						<choice><statement><p>Never</p></statement></choice>
+						<choice><statement><p>Rarely</p></statement></choice>
+						<choice><statement><p>Occasionally</p></statement></choice>
+						<choice><statement><p>Frequently</p></statement></choice>
+						<choice><statement><p>Always</p></statement></choice>
+					</choices>
+				</exercise>
+
+				<exercise>
+					<title>Indicate how often you do the following when using the interactive reading questions</title>
+					<statement>
+						<p>
+							(0=Never, 1=Rarely, 2=Occasionally, 3=Often, 4=Always)
+							<tabular valign="top" top="minor" bottom="minor" left="minor">
+								<col halign="left"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center" right="minor"/>
+								<row>
+									<cell>You answer the reading questions seriously.</cell>
+									<cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell>
+								</row>
+								<row>
+									<cell>You review the feedback explanations after answering.</cell>
+									<cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell>
+								</row>
+								<row>
+									<cell>
+										Even when your answer is correct, you select the other answer
+										choices to read the feedback.
+									</cell>
+									<cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell>
+								</row>
+							</tabular>
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<title>How helpful are each of the following question types for your learning?</title>
+					<statement>
+						<p>
+							<tabular top="minor" bottom="minor" left="minor">
+								<col width="30%" halign="left"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center" right="minor"/>
+								<row>
+									<cell><m></m></cell>
+									<cell>Don't know</cell>
+									<cell>Not helpful</cell>
+									<cell>Somewhat helpful</cell>
+									<cell>Helpful</cell>
+									<cell>Very helpful</cell>
+								</row>
+								<row>
+									<cell><m>\textbf{True–False}</m></cell>
+									<cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell>
+								</row>
+								<row>
+									<cell><m>\textbf{Multiple-Choice}</m></cell>
+									<cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell>
+								</row>
+								<row>
+									<cell><m>\textbf{Matching}</m></cell>
+									<cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell>
+								</row>
+								<row>
+									<cell><m>\textbf{Fill-in-the-blank}</m></cell>
+									<cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell>
+								</row>
+								<row>
+									<cell><m>\textbf{Click-on selection}</m></cell>
+									<cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell><cell> 〇 </cell>
+								</row>
+							</tabular>
+						</p>
+					</statement>
+
+
+				</exercise>
+
+				<exercise>
+					<title>About how many hours per week do you spend using the interactive textbook?</title>
+					<statement>
+						<p>
+							Please enter the amount of hours as a number = <fillin mode="string" answer="" width="2"/>
+						</p>
+					</statement>
+					
+					<evaluation>
+						<evaluate>
+							<test>
+								<strcmp>.*</strcmp>
+								<feedback><p>Your answer has been recorded.</p></feedback>
+							</test>
+						</evaluate>
+					</evaluation>
+				</exercise>
+			</exercises>
+
+			<exercises>
+				<title>Learning Experience</title>
+
+				<exercise>
+					<title>Please rate how much you agree with each statement</title>
+					<statement>
+						<p>
+							<tabular valign="top" top="minor" bottom="minor" left="minor">
+								<col width="10%" halign="left"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center" right="minor"/>
+								<row>
+									<cell/>
+									<cell colspan="2"><p>Disagree</p></cell>
+									<cell><p>Neutral</p></cell>
+									<cell colspan="2"><p>Agree</p></cell>
+								</row>
+								<row>
+									<cell>
+										<p>
+										The interactive features help me understand differential equations
+										better.</p>
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										I retain concepts better using the interactive textbook.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The textbook helps me apply concepts to problem solving.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The interactive features make abstract concepts more concrete.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The interactive questions help me identify what I do not
+										understand.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The interactive features sometimes distract me from the main
+										ideas.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The interactive textbook encourages me to persist when I get an
+										answer wrong.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>
+										The textbook is accessible and works well with my device or screen
+										reader.
+									</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+							</tabular>
+						</p>
+					</statement>
+
+
+				</exercise>
+			</exercises>
+
+			<exercises>
+				<title>Comparison and Perception</title>
+
+				<exercise>
+					<title>Compared to a traditional textbook, how would you rate this interactive textbook on the following aspects?</title>
+					<statement>
+						<p>
+							<tabular valign="top" top="minor" bottom="minor" left="minor">
+								<col width="10%" halign="left"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center"/>
+								<col halign="center" right="minor"/>
+								<row>
+									<cell/>
+									<cell colspan="2"><p>Traditional Better</p></cell>
+									<cell><p>Neutral</p></cell>
+									<cell colspan="2"><p>Interactive Better</p></cell>
+								</row>
+								<row>
+									<cell>Overall learning experience</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>Concept understanding</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>Problem-solving support</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+								<row>
+									<cell>Motivation to learn</cell>
+									<cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell> <cell><p>〇</p></cell>
+								</row>
+							</tabular>
+						</p>
+					</statement>
+
+
+				</exercise>
+
+				<exercise>
+					<title>How likely are you to recommend this interactive textbook to another student learning differential equations?</title>
+					<statement>
+						<p>
+							Please respond on a scale from zero (not at all likely) to ten
+							(extremely likely).
+						</p>
+					</statement>
+				</exercise>
+			</exercises>
+
+			<exercises>
+				<title>Open-Ended Reflection</title>
+
+				<exercise>
+					<title>Describe one moment when an interactive reading question helped a concept click for you</title>
+					<statement>
+						<p>
+							
+						</p>
+					</statement>
+					<response/>
+				</exercise>
+
+				<exercise>
+					<title>If you could improve one aspect of the interactive textbook (content, visuals, navigation, or feedback), what would it be and why?</title>
+					<statement>
+						<p>
+							
+						</p>
+					</statement>
+					<response/>
+				</exercise>
+			</exercises>
+
 		</section>
 
 		<!-- <section>
