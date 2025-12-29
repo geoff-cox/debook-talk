@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2025-12-28T15:22:16-05:00       *-->
+<!--*       on 2025-12-29T15:03:25-05:00       *-->
 <!--*   A recent stable commit (2022-07-01):   *-->
 <!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
 <!--*                                          *-->
@@ -176,142 +176,118 @@ div[style*="display:table-cell"] img {
 <tr><td align="center" style="border-bottom: 0px;">Applied Mathematics @ Virginia Military Institute</td></tr>
 <tr><td align="center"></td></tr>
 </table>
-<h4><div class="date">December 28, 2025</div></h4></section><section><h3>Abstract</h3>
+<h4><div class="date">December 29, 2025</div></h4></section><section><h3>Abstract</h3>
 <div align="left">
 <p>Ordinary differential equations (ODEs) form a gateway course for many STEM majors, yet students often encounter steep conceptual and technical barriers when transitioning from calculus to differential equations. This talk presents a case study in rethinking ODE pedagogy through the development of an open-access textbook that blends student-centered narrative, scaffolded checkpoints, interactive technology, and structured workflows.</p>
 <p>The project’s guiding question is: How can textbook design itself function as an innovation in teaching and learning? Each chapter is built around conversational explanations, step-by-step workflow and reading checkpoints that emphasize concepts and procedure. Interactive visualizations add a dynamic perspective to simulate a classroom experience.</p>
 <p>By framing the textbook not only as a resource but as a pedagogical experiment, this work highlights the role of curriculum design in shaping student experiences of ODEs and opens space for dialogue about how innovative resources can transform undergraduate mathematics education.</p>
-</div></section></section><section><h3>Summary</h3>
+</div></section></section><section><h3>Why Rethink the Differential Equations Textbook?</h3>
+<div align="left">
+<p>Differential equations is a gateway course for many STEM majors, yet the materials we use are often expensive, static, and mismatched to how students actually learn today.</p>
+<ul class="disc" id="opening-3">
+<li>Commercial texts are polished but rigid.</li>
+<li>Free notes exist, but often lack structure and support.</li>
+<li>Students increasingly expect interactive, accessible, and digital-first resources.</li>
+</ul>
+<p>This talk describes the design of a student-centered, interactive textbook and the tools that made it sustainable.</p>
+</div></section><section><h3>Overview</h3>
 <div align="left"><dl class="description-list">
 <div>
-<dt>✔ Part I: Writing and Publishing an Open-Source Textbook</dt>
-<dd><p><ul class="disc" id="summary-2-1-2-1">
-<li>Writing ➜ PreTeXt (Authoring Platform)</li>
-<li>Publishing ➜ Runestone Academy (Hosting Platform)</li>
-<li>What are these platforms? What can they do? How do you get started?</li>
-</ul></p></dd>
+<dt>Part I — Authoring with PreTeXt</dt>
+<dd><p>How open-source tooling enables sustainable, interactive textbooks.</p></dd>
 </div>
 <div>
-<dt>✔ Part II: Use Cases</dt>
-<dd><p><ul class="disc" id="summary-2-2-2-1">
-<li>Differential Equations Textbook</li>
-<li>Course Homepage</li>
-</ul></p></dd>
+<dt>Part II — A Differential Equations Textbook</dt>
+<dd><p>Design philosophy, features, and a brief demonstration.</p></dd>
 </div>
 <div>
-<dt>✔ Part III: Pedagogical Impact</dt>
-<dd><p><ul class="disc" id="summary-2-3-2-1">
-<li>Student Usage Data.</li>
-<li>Student Survey.</li>
-</ul></p></dd>
+<dt>Part III — Pedagogical Reflection</dt>
+<dd><p>Student usage, survey results, and lessons learned.</p></dd>
 </div>
-<div>
-<dt>✔ Next Steps &amp; Questions?</dt>
-<dd></dd>
-</div>
-</dl></div></section><section><h3>Part I: PreTeXt - What is PreTeXt?</h3>
+</dl></div></section><section><h3>Part I: What Is PreTeXt?</h3>
 <div align="left">
-<p>PreTeXt is an open-source authoring language designed for writing textbooks, articles, lecture notes, and course materials.</p>
+<p>PreTeXt is an open-source authoring system for writing structured, accessible, and interactive educational materials.</p>
 <dl class="description-list">
 <div>
-<dt>✦ <em class="emphasis">Write once, publish everywhere</em>
-</dt>
-<dd><p>From one source you can produce web, PDF, ePub, and Braille versions.</p></dd>
+<dt>Write once, publish everywhere</dt>
+<dd><p>Web, PDF, ePub, large print, and Braille from a single source.</p></dd>
 </div>
 <div>
-<dt>✦ <em class="emphasis">Built-in Interactive Components:</em>
-</dt>
-<dd><p>Suppliment narrative with interactive reading questions, coding tasks, or visualization tools.</p></dd>
+<dt>Pedagogy-aware structure</dt>
+<dd><p>Examples, exercises, definitions, and loads of interactive features.</p></dd>
 </div>
 <div>
-<dt>✦ <em class="emphasis">Accessibility Out of the Box:</em>
-</dt>
-<dd><p>PreText is Screen-Reader Friendly and supports Braille, Large Print, and Dark/Light Mode.</p></dd>
+<dt>Accessibility by design</dt>
+<dd><p>Screen-reader friendly, responsive layouts, and dark/light modes.</p></dd>
 </div>
 </dl>
-<p>Whether you want a polished textbook, an online &amp; interactive research hub, or just clean online lecture notes, PreTeXt is ready for just about any workflow.</p>
-</div></section><section><h3>Part I: PreTeXt - How to Get Started?</h3>
-<div align="left"><dl class="description-list">
+<p>Whether you want an interactive textbook, an research hub, or lecture notes, PreTeXt is ready for most workflows.</p>
+</div></section><section><h3>Part I: Getting Started with PreTeXt</h3>
+<div align="left">
+<dl class="description-list">
 <div>
-<dt>Working Environement (IDE/GUI)</dt>
+<dt>Authoring Environment</dt>
 <dd><p><ul class="disc" id="p1-pretext-getting-started-2-1-2-1">
-<li>Option 1: Github + Codespaces</li>
-<li><p>Option 2: Local Installation<ul class="circle" id="p1-pretext-getting-started-2-1-2-1-2-1-1">
-<li>VSCode, Python, Latex,</li>
-<li>A few more depending on your use case.</li>
-</ul></p></li>
+<li>GitHub + Codespaces (recommended for beginners)</li>
+<li>Local setup using VS Code and Python</li>
 </ul></p></dd>
 </div>
 <div>
-<dt>Requirements</dt>
+<dt>What You Need to Learn</dt>
 <dd><p><ul class="disc" id="p1-pretext-getting-started-2-2-2-1">
-<li>GitHub (basic commands).</li>
-<li>PreText Syntax (think latex with html &lt;tags&gt;).</li>
-<li>Minimal command line use (building and viewing). Even less if you use Option 1.</li>
+<li>Basic Git workflow</li>
+<li>XML-style markup (closer to HTML than LaTeX)</li>
+<li>Minimal command-line usage</li>
 </ul></p></dd>
 </div>
-</dl></div></section><section><h3>Part I: PreTeXt - Interactive Features</h3>
+</dl>
+<p>The learning curve is real, but front-loaded, and well-supported by the community.</p>
+</div></section><section><h3>Part I: Interactive Capabilities</h3>
 <div align="left">
 <dl class="description-list">
 <div>
-<dt>✦ Embedded Interactives (3rd Party)</dt>
-<dd>🧮 GeoGebra, Desmos, Google Maps, ...</dd>
+<dt>Third-Party Integration</dt>
+<dd><p>GeoGebra, Desmos, Google maps, etc..</p></dd>
 </div>
 <div>
-<dt>✦ Interactive Exercises</dt>
-<dd>📝True/False,<br>📝Multiple-Choice,<br>📝Matching,<br>📝Clickable-Area,<br>📝Fill-in-the-Blank,<br>📝Short Answer, ...</dd>
+<dt>Interactive Exercises</dt>
+<dd><p>Low-stakes reading questions, formative checks, and auto- and immediate-feedback.</p></dd>
 </div>
 <div>
-<dt>✦ Interactive Coding</dt>
-<dd></dd>
-</div>
-<div>
-<dt>✦ Authored JavaScript Interactives (Advanced)</dt>
-<dd></dd>
+<dt>Advanced Integration</dt>
+<dd><p>Python, Sage, and authored JavaScript for advanced workflows.</p></dd>
 </div>
 </dl>
-<p><a class="external" href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html" target="_blank">Interactive Elements Gallery</a>.</p>
-</div></section><section><h3>Part II: Quick Start Guide</h3>
-<div align="left"><p>If there is interest, I can provide a preview of the steps needed to get up and running with PreTeXt, including:<ul class="disc" id="p2-quick-start-2-2">
-<li>Setting up a basic PreTeXt workspace,</li>
-<li>Creating a new book,</li>
-<li>Building &amp; Viewing a book, and</li>
-<li>Deploying the book for the world to see.</li>
-</ul></p></div></section><section><h3>Part III: Use Cases</h3>
-<div align="left"><p>▷ This slideshow.<br> ▷ <a class="external" href="https://geoff-cox.github.io/matlab-course/ma310/frontmatter.html" target="_blank">Course Homepage</a><br> ▷ <a class="external" href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html" target="_blank">Differential Equations Textbook</a><dl class="description-list"><div>
-<dt><em class="emphasis">Student-Facing Design Philosophy:</em></dt>
-<dd><p>🔸conversational tone<br> 🔸minimal jargon<br> 🔸no walls of text<br> 🔸low buy-in reading questions<br> 🔸audio option<br> 🔸targeted reflection checkpoints<br> 🔸visualization tools</p></dd>
-</div></dl></p></div></section><section><h3>Resources &amp; Links</h3>
-<div align="left"><dl class="description-list">
-<div>
-<dt><em class="emphasis">Main PreTeXt Hub</em></dt>
-<dd><p><a class="external" href="https://pretextbook.org" target="_blank">https://pretextbook.org</a></p></dd>
-</div>
-<div>
-<dt><em class="emphasis">Authoring Documentation</em></dt>
-<dd><p><a class="external" href="https://pretextbook.org/doc/guide/html/" target="_blank">https://pretextbook.org/doc/guide/html/</a></p></dd>
-</div>
-<div>
-<dt><em class="emphasis">Runestone (Free PreTeXt Hosting Service)</em></dt>
-<dd><p><a class="external" href="https://runestone.academy/" target="_blank">https://runestone.academy</a></p></dd>
-</div>
-<div>
-<dt><em class="emphasis">Discussion &amp; Support Community Forum</em></dt>
-<dd><p><a class="external" href="https://pretextbook.org/community.html" target="_blank">https://pretextbook.org/community.html</a></p></dd>
-</div>
-<div>
-<dt><em class="emphasis">Textbook Repository</em></dt>
-<dd><a class="external" href="https://github.com/geoff-cox/debookrs" target="_blank">https://github.com/geoff-cox/debookrs</a></dd>
-</div>
-</dl></div></section><section><h3>Thank You!</h3>
+<p>Interactivity is optional, but when used intentionally, it changes how students read.</p>
+<p><a class="external" href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html" target="_blank">Interactive Samples Gallery</a>.</p>
+</div></section><section><h3>Part II: From Tool to Textbook</h3>
 <div align="left">
-<p>Thanks for coming! I hope this talk introduced you to a new resource that you may consider in the future.</p>
-<p>If you’d like to explore more or collaborate, feel free to reach out:</p>
-<div style="display:table;margin-left:7.5%;margin-right:7.5%;" class="sidebyside">
-<div style="display:table-cell;width:11.7647058823529%;vertical-align:top;"><p>📧</p></div>
-<div style="display:table-cell;width:70.5882352941177%;vertical-align:top;"><p><em class="emphasis">Email:</em> <a class="external" href="mailto:coxgeoff@vmi.edu" target="_blank">coxgeoff@vmi.edu</a></p></div>
-</div>
-<div style="display:table;margin-left:40%;margin-right:40%;" class="sidebyside"><div style="display:table-cell;width:100%;vertical-align:top;"><p>QUESTIONS?</p></div></div>
+<p>Rather than starting with features, I started with a question:</p>
+<p><em class="emphasis">What would a differential equations textbook look like if it were written entirely for students?</em></p>
+</div></section><section><h3>Part II: Student-Centered Design Principles</h3>
+<div align="left">
+<p>🔸Conversational, instructor-like tone<br> 🔸Short narrative blocks—no walls of text<br> 🔸Frequent, low-stakes reflection points<br> 🔸low buy-in reading questions<br> 🔸Interative Visualizations for dynamic instruction<br> 🔸Audio narration for accessibility</p>
+<p>The goal is not more interaction, but better-timed interaction.</p>👉 <a class="external" href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html" target="_blank">Differential Equations Textbook</a>
+</div></section><section><h3>Part III: Pedagogical Assessment &amp; Reflection</h3>
+<div align="left">
+<p>Hosting platforms, such as , opens opportunities for</p>
+<ul class="disc" id="p3-pedagogical-reflection-3">
+<li>Processing of student data via hosting platforms, like Runestone Academy.</li>
+<li>Students regularly used reading questions as navigation cues.</li>
+<li>Audio narration supported accessibility and review.</li>
+<li>Interactive visuals reduced reliance on office hours for conceptual issues.</li>
+</ul>
+<p>Ongoing survey and focus group data are informing future revisions.</p>
+<p>Survey: <a class="external" href="https://forms.office.com/r/gLb4rexa7x" target="_blank">LINK</a></p>
+</div></section><section><h3>Closing Thoughts</h3>
+<div align="left">
+<p>Open textbooks are not just about cost, they are about control, adaptability, and pedagogy.</p>
+<p>PreTeXt made it possible to build something ambitious as a solo author and to keep improving it over time.</p>
+<p>If you have ever wanted to write the book you wish you had, the tools are ready.</p>
+</div></section><section><h3>Thank You</h3>
+<div align="left">
+<p>Thank you for your time. I am happy to answer questions or discuss collaboration.</p>
+<p>Questions?</p>
 </div></section>
 </div>
 </div></body>
