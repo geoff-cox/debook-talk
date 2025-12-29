@@ -34,22 +34,22 @@
 
 			<dl pause="no">
 				<li>
-					<title>Part I: Authoring Tool</title>
+					<title>Part I — Authoring with PreTeXt</title>
 					<p>How open-source tooling enables sustainable, interactive textbooks.</p>
 				</li>
 				<li>
-					<title>Part II: Textbook Design</title>
+					<title>Part II — A Differential Equations Textbook</title>
 					<p>Design philosophy, features, and a brief demonstration.</p>
 				</li>
 				<li>
-					<title>Part III: Pedagogical Evaluation</title>
+					<title>Part III — Pedagogical Reflection</title>
 					<p>Student usage, survey results, and lessons learned.</p>
 				</li>
 			</dl>
 		</slide>
 
 		<slide label="p1-pretext-what-is-it">
-			<title>Part I: Authoring Tool</title>
+			<title>Part I: What Is PreTeXt?</title>
 
 			<p>
 				PreTeXt is an open-source authoring system for writing structured, accessible, and interactive educational materials.
@@ -76,7 +76,7 @@
 		</slide>
 
 		<slide label="p1-pretext-getting-started">
-			<title>Getting Started with PreTeXt</title>
+			<title>Part I: Getting Started with PreTeXt</title>
 
 			<dl pause="no">
 				<li>
@@ -106,7 +106,7 @@
 		</slide>
 
 		<slide label="p1-pretext-features">
-			<title>Interactive Capabilities</title>
+			<title>Part I: Interactive Capabilities</title>
 
 			<dl pause="no">
 				<li>
@@ -119,7 +119,7 @@
 				</li>
 				<li>
 					<title>Advanced Integration</title>
-					<p>Python, Sage, and JavaScript for advanced workflows.</p>
+					<p>Python, Sage, and authored JavaScript for advanced workflows.</p>
 				</li>
 			</dl>
 
@@ -133,16 +133,10 @@
 		</slide>
 
 		<slide label="p2-transition">
-			<title>From Tool to Design</title>
+			<title>Part II: From Tool to Textbook</title>
 
 			<p>
-				Textbooks are typically written, reviewed, and evaluated by experts in the field.
-				As a result, they often prioritize disciplinary completeness over how students
-				actually experience the material.
-			</p>
-
-			<p>
-				That tension led to our guiding design question:
+				Rather than starting with features, I started with a question:
 			</p>
 
 			<p>
@@ -152,126 +146,44 @@
 		</slide>
 
 		<slide label="p2-design">
-			<title>Part II: Textbook Design</title>
+			<title>Part II: Student-Centered Design Principles</title>
 
 			<p>
-				The answer was not a longer or more feature-rich textbook,
-				but one intentionally designed around how students read,
-				reflect, and build understanding.
+				<line>🔸Conversational, instructor-like tone</line>
+				<line>🔸Short narrative blocks—no walls of text</line>
+				<line>🔸Frequent, low-stakes reflection points</line>
+				<line>🔸low buy-in reading questions </line>
+				<line>🔸Interative Visualizations for dynamic instruction</line>
+				<line>🔸Audio narration for accessibility</line>
 			</p>
 
 			<p>
-				This led to a set of student-centered design principles:
+				The goal is not more interaction, but better-timed interaction.
 			</p>
 
-			<p>
-				<line>🔸A conversational, instructor-like tone</line>
-				<line>🔸Short, focused narrative blocks instead of long exposition</line>
-				<line>🔸Low-stakes checkpoint questions to guide attention</line>
-				<line>🔸Dynamic visualizations for conceptual clarity</line>
-				<line>🔸Audio narration to support accessibility and review</line>
-			</p>
+			<line>👉 <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">Differential Equations Textbook</url></line>
 
-			<p>
-				No book will ever replace in-class, face-to-face instruction.
-				The goal here was to bring as much of that instructional experience
-				into the book as possible.
-			</p>
-
-			<line>
-				👉 <url href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html">
-				Differential Equations Textbook
-				</url>
-			</line>
 		</slide>
 
-		<slide label="p3-transition">
-			<title>From Design to Evaluation</title>
+		<slide label="p3-pedagogical-reflection">
+			<title>Part III: Pedagogical Assessment &amp; Reflection</title>
 
 			<p>
-				The interactive features in this textbook were not added for novelty,
-				but to address persistent challenges in how students learn differential equations.
-			</p>
-
-			<p>
-				To move beyond anecdote, we are conducting a formal study to examine
-				how students actually engage with these features and what they perceive
-				as beneficial or challenging.
-			</p>
-
-			<p>
-				This work is framed as a small mixed-methods pedagogical study.
-			</p>
-		</slide>
-
-		<slide label="p3-research-focus">
-			<title>Part III: Pedagogical Evaluation</title>
-
-			<p>
-				The guiding research question is:
-			</p>
-
-			<p>
-				<em>
-					In what ways do interactive textbooks enhance students’ understanding
-					of differential equations concepts?
-				</em>
-			</p>
-
-			<p>
-				Data is collected through a student survey, and is
-				supplemented by open-ended and reflective focus groups.
-			</p>
-
-			<p>
-				The emphasis is on student engagement, conceptual understanding,
-				persistence, and accessibility.
-			</p>
-		</slide>
-
-		<slide label="p3-what-we-measure">
-			<title>What We Are Measuring</title>
-
-			<p>
-				Rather than testing isolated skills, the study examines how students
-				<em>use</em> the textbook while learning.
-
-				<ul pause="no">
-					<li>How students engage with low-stakes reading questions</li>
-					<li>Whether feedback prompts reflection and persistence</li>
-					<li>Which interactive elements support or hinder learning</li>
-					<li>How students rate the experience to traditional books</li>
-				</ul>
-			</p>
-
-			<p>
-				These measures are designed to connect textbook features directly
-				to learning behaviors.
-			</p>
-		</slide>
-
-		<slide label="p3-why-it-matters">
-			<title>Why This Matters</title>
-
-			<p>
-				Differential equations is conceptually challenging because it asks students
-				to reason about dynamic systems using static representations.
-			</p>
-
-			<p>
-				Interactive textbooks have the potential to:
+				Hosting platforms, such as , opens opportunities for 	
 			</p>
 
 			<ul pause="no">
-				<li>Make abstract behavior more concrete and visual</li>
-				<li>Encourage struggle through immediate feedback</li>
-				<li>Support persistence when students answer incorrectly</li>
-				<li>Improve accessibility through multimodal engagement</li>
+				<li>Processing of student data via hosting platforms, like Runestone Academy.</li>
+				<li>Students regularly used reading questions as navigation cues.</li>
+				<li>Audio narration supported accessibility and review.</li>
+				<li>Interactive visuals reduced reliance on office hours for conceptual issues.</li>
 			</ul>
 
 			<p>
-				This study helps evaluate whether those potential benefits are realized in practice.
+				Ongoing survey and focus group data are informing future revisions.
 			</p>
+			
+			<p>Survey: <url href="https://forms.office.com/r/gLb4rexa7x">LINK</url></p>
 		</slide>
 
 		<slide label="closing">
