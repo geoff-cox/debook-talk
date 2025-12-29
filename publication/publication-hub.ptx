@@ -12,7 +12,7 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <chunking level="2" />
+      <chunking level="1" />
 
     <!-- Depth for table of contents.  0 means no TOC -->
       <tableofcontents level="3" />
@@ -155,7 +155,7 @@
 
     <!-- Table of Contents: focused="yes" enables expand/collapse functionality. -->
     <!-- @preexpanded-levels controls how deep to expend toc initially.          -->
-      <toc focused="no" preexpanded-levels="4" />
+      <toc focused="yes" preexpanded-levels="3" />
 
     <!-- Navigation options: linear or tree, and whether there is an "up" button -->
       <!--<navigation logic="tree" upbutton="no" />-->

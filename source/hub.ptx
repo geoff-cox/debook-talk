@@ -13,42 +13,95 @@
 		<section xml:id="sec-">
 			<title>Resources &amp; Links</title>
 
-			<dl>
-				<li>
-					<title>Presentation Slides</title>
-					<p>
-						<url href="https://pretextbook.org">https://pretextbook.org</url>
-					</p>
-				</li>
-				<li>
-					<title>Main <pretext/> Hub</title>
-					<p>
-						<url href="https://pretextbook.org">https://pretextbook.org</url>
-					</p>
-				</li>
-				<li>
-					<title>Authoring Documentation</title>
-					<p>
-						<url href="https://pretextbook.org/doc/guide/html/">https://pretextbook.org/doc/guide/html/</url>
-					</p>
-				</li>
-				<li>
-					<title>Runestone (Free <pretext/> Hosting Service)</title>
-					<p>
-						<url href="https://runestone.academy/">https://runestone.academy</url>
-					</p>
-				</li>
-				<li>
-					<title>Discussion &amp; Support Community Forum</title>
-					<p>
-						<url href="https://pretextbook.org/community.html">https://pretextbook.org/community.html</url>
-					</p>
-				</li>
-				<li>
-					<title>Textbook Repository</title>
-					<url href="https://github.com/geoff-cox/debookrs">https://github.com/geoff-cox/debookrs</url>
-				</li>
-			</dl>
+			<paragraphs>
+				<title>Presenters</title>
+
+				<p>
+					<dl width="narrow">
+						<li>
+							<title>Geoff</title>
+							<p><url href="mailto://coxgeoff@vmi.edu">coxgeoff@vmi.edu</url></p>
+						</li>
+						<li>
+							<title>Blain</title>
+							<p><url href="mailto://pattersonba@vmi.edu">pattersonba@vmi.edu</url></p>
+						</li>
+						<li>
+							<title>Slides</title>
+							<p><url href="https://geoff-cox.github.io/debook-talk/talk/slides.html">geoff-cox.github.io/debook-talk/talk/slides.html</url></p>
+						</li>
+					</dl>				
+				</p>
+			</paragraphs>
+
+			<paragraphs>
+				<title>Differential Equations Book</title>
+
+				<p>
+					<dl width="narrow">
+						<li>
+							<title>HTML</title>
+							<p><url href="https://runestone.academy/ns/books/published/debookrs/">runestone.academy/ns/books/published/debookrs/</url></p>
+						</li>
+						<li>
+							<title>Source</title>
+							<p><url href="https://github.com/geoff-cox/debookrs">github.com/geoff-cox/debookrs</url></p>
+						</li>
+						<li>
+							<title>Survey</title>
+							<p><url href="https://forms.office.com/r/gLb4rexa7x">forms.office.com/r/gLb4rexa7x</url></p>
+						</li>
+						<li>
+							<title>Responses</title>
+							<p>
+								<url href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&amp;origin=NeoPortalPage&amp;subpage=design&amp;id=4z1IZVEtrkChgq1uMCZB8ddSa3pknIFDmEUymlk3Pk9UNENTMllIT0VPSFVNME5CSkNTUzVEWjBUUi4u&amp;analysis=false&amp;topview=Presentation">Preliminary Responses (<m>n = 6</m>)</url>
+							</p>
+						</li>
+					</dl>
+				</p>
+			</paragraphs>
+
+			<paragraphs>
+				<title><pretext/></title>
+				
+				<p>
+					<dl width="narrow">
+						<li>
+							<title>Main</title>
+							<p><url href="https://pretextbook.org">pretextbook.org</url></p>
+						</li>
+						<li>
+							<title>Docs</title>
+							<p><url href="https://pretextbook.org/doc/guide/html/">pretextbook.org/doc/guide/html/</url></p>
+						</li>
+						<li>
+							<title>Forums</title>
+							<p><url href="https://pretextbook.org/community.html">pretextbook.org/community.html</url></p>
+						</li>
+					</dl>
+				</p>
+			</paragraphs>
+
+			<paragraphs>
+				<title>Runestone Academy</title>
+
+				<p>
+					<dl width="narrow">
+						<li>
+							<title>Main</title>
+							<p><url href="https://runestone.academy/">runestone.academy</url></p>
+						</li>
+						<li>
+							<title>Guide</title>
+							<p><url href="https://guide.runestone.academy">guide.runestone.academy</url></p>
+						</li>
+						<li>
+							<title>Videos</title>
+							<p><url href="https://www.youtube.com/@RunestoneInteractive/playlists">www.youtube.com/@RunestoneInteractive/playlists</url></p>
+						</li>
+					</dl>
+				</p>
+			</paragraphs>
 		</section>
 
 		<section xml:id="talk-demo-interactive-features">
@@ -422,7 +475,7 @@
 		</section>
 
 		<section xml:id="getting-started-w-pretext">
-			<title>A Setup Guide for <pretext /></title>
+			<title><pretext /> Setup Guide</title>
 
 			<subsection xml:id="workspace-setup">
 				<title>Workspace Setup</title>
