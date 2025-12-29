@@ -84,7 +84,7 @@
 					<p>
 						<ul pause="no">
 							<li>GitHub + Codespaces (recommended for beginners)</li>
-							<li>Local setup using VS Code and Python</li>
+							<li>Local setup (code editor, python, latex, etc.)</li>
 						</ul>
 					</p>
 				</li>
