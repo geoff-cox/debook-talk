@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2025-12-29T15:04:23-05:00       *-->
+<!--*       on 2025-12-29T17:28:09-05:00       *-->
 <!--*   A recent stable commit (2022-07-01):   *-->
 <!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
 <!--*                                          *-->
@@ -11,7 +11,7 @@
 <html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Designing a Student-Centered Open Textbook for Differential Equations</title>
+<title>Designing a Student-Centered Open Textbook</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
@@ -169,7 +169,7 @@ div[style*="display:table-cell"] img {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="slides">
-<section><section><h1>Designing a Student-Centered Open Textbook for Differential Equations</h1>
+<section><section><h1>Designing a Student-Centered Open Textbook</h1>
 <h2>Joint Mathematics Meetings, 2026</h2>
 <table>
 <tr><th align="center" style="border-bottom: 0px;">Dr. Geoff Cox 🔹 Dr. Blain Patterson</th></tr>
@@ -193,18 +193,18 @@ div[style*="display:table-cell"] img {
 </div></section><section><h3>Overview</h3>
 <div align="left"><dl class="description-list">
 <div>
-<dt>Part I — Authoring with PreTeXt</dt>
+<dt>Part I: Authoring Tool</dt>
 <dd><p>How open-source tooling enables sustainable, interactive textbooks.</p></dd>
 </div>
 <div>
-<dt>Part II — A Differential Equations Textbook</dt>
+<dt>Part II: Textbook Design</dt>
 <dd><p>Design philosophy, features, and a brief demonstration.</p></dd>
 </div>
 <div>
-<dt>Part III — Pedagogical Reflection</dt>
+<dt>Part III: Pedagogical Evaluation</dt>
 <dd><p>Student usage, survey results, and lessons learned.</p></dd>
 </div>
-</dl></div></section><section><h3>Part I: What Is PreTeXt?</h3>
+</dl></div></section><section><h3>Part I: Authoring Tool</h3>
 <div align="left">
 <p>PreTeXt is an open-source authoring system for writing structured, accessible, and interactive educational materials.</p>
 <dl class="description-list">
@@ -222,7 +222,7 @@ div[style*="display:table-cell"] img {
 </div>
 </dl>
 <p>Whether you want an interactive textbook, an research hub, or lecture notes, PreTeXt is ready for most workflows.</p>
-</div></section><section><h3>Part I: Getting Started with PreTeXt</h3>
+</div></section><section><h3>Getting Started with PreTeXt</h3>
 <div align="left">
 <dl class="description-list">
 <div>
@@ -242,7 +242,7 @@ div[style*="display:table-cell"] img {
 </div>
 </dl>
 <p>The learning curve is real, but front-loaded, and well-supported by the community.</p>
-</div></section><section><h3>Part I: Interactive Capabilities</h3>
+</div></section><section><h3>Interactive Capabilities</h3>
 <div align="left">
 <dl class="description-list">
 <div>
@@ -255,30 +255,53 @@ div[style*="display:table-cell"] img {
 </div>
 <div>
 <dt>Advanced Integration</dt>
-<dd><p>Python, Sage, and authored JavaScript for advanced workflows.</p></dd>
+<dd><p>Python, Sage, and JavaScript for advanced workflows.</p></dd>
 </div>
 </dl>
 <p>Interactivity is optional, but when used intentionally, it changes how students read.</p>
 <p><a class="external" href="https://geoff-cox.github.io/debook-talk/guide/talk-demo-interactive-features.html" target="_blank">Interactive Samples Gallery</a>.</p>
-</div></section><section><h3>Part II: From Tool to Textbook</h3>
+</div></section><section><h3>From Tool to Design</h3>
 <div align="left">
-<p>Rather than starting with features, I started with a question:</p>
+<p>Textbooks are typically written, reviewed, and evaluated by experts in the field. As a result, they often prioritize disciplinary completeness over how students actually experience the material.</p>
+<p>That tension led to our guiding design question:</p>
 <p><em class="emphasis">What would a differential equations textbook look like if it were written entirely for students?</em></p>
-</div></section><section><h3>Part II: Student-Centered Design Principles</h3>
+</div></section><section><h3>Part II: Textbook Design</h3>
 <div align="left">
-<p>🔸Conversational, instructor-like tone<br> 🔸Short narrative blocks—no walls of text<br> 🔸Frequent, low-stakes reflection points<br> 🔸low buy-in reading questions<br> 🔸Interative Visualizations for dynamic instruction<br> 🔸Audio narration for accessibility</p>
-<p>The goal is not more interaction, but better-timed interaction.</p>👉 <a class="external" href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html" target="_blank">Differential Equations Textbook</a>
-</div></section><section><h3>Part III: Pedagogical Assessment &amp; Reflection</h3>
+<p>The answer was not a longer or more feature-rich textbook, but one intentionally designed around how students read, reflect, and build understanding.</p>
+<p>This led to a set of student-centered design principles:</p>
+<p>🔸A conversational, instructor-like tone<br> 🔸Short, focused narrative blocks instead of long exposition<br> 🔸Low-stakes checkpoint questions to guide attention<br> 🔸Dynamic visualizations for conceptual clarity<br> 🔸Audio narration to support accessibility and review</p>
+<p>No book will ever replace in-class, face-to-face instruction. The goal here was to bring as much of that instructional experience into the book as possible.</p>👉 <a class="external" href="https://runestone.academy/ns/books/published/debookrs/frontmatter.html" target="_blank">Differential Equations Textbook</a>
+</div></section><section><h3>From Design to Evaluation</h3>
 <div align="left">
-<p>Hosting platforms, such as , opens opportunities for</p>
-<ul class="disc" id="p3-pedagogical-reflection-3">
-<li>Processing of student data via hosting platforms, like Runestone Academy.</li>
-<li>Students regularly used reading questions as navigation cues.</li>
-<li>Audio narration supported accessibility and review.</li>
-<li>Interactive visuals reduced reliance on office hours for conceptual issues.</li>
+<p>The interactive features in this textbook were not added for novelty, but to address persistent challenges in how students learn differential equations.</p>
+<p>To move beyond anecdote, we are conducting a formal study to examine how students actually engage with these features and what they perceive as beneficial or challenging.</p>
+<p>This work is framed as a small mixed-methods pedagogical study.</p>
+</div></section><section><h3>Part III: Pedagogical Evaluation</h3>
+<div align="left">
+<p>The guiding research question is:</p>
+<p><em class="emphasis">In what ways do interactive textbooks enhance students’ understanding of differential equations concepts?</em></p>
+<p>Data is collected through a student survey, and is supplemented by open-ended and reflective focus groups.</p>
+<p>The emphasis is on student engagement, conceptual understanding, persistence, and accessibility.</p>
+</div></section><section><h3>What We Are Measuring</h3>
+<div align="left">
+<p>Rather than testing isolated skills, the study examines how students <em class="emphasis">use</em> the textbook while learning.<ul class="disc" id="p3-what-we-measure-2-2">
+<li>How students engage with low-stakes reading questions</li>
+<li>Whether feedback prompts reflection and persistence</li>
+<li>Which interactive elements support or hinder learning</li>
+<li>How students rate the experience to traditional books</li>
+</ul></p>
+<p>These measures are designed to connect textbook features directly to learning behaviors.</p>
+</div></section><section><h3>Why This Matters</h3>
+<div align="left">
+<p>Differential equations is conceptually challenging because it asks students to reason about dynamic systems using static representations.</p>
+<p>Interactive textbooks have the potential to:</p>
+<ul class="disc" id="p3-why-it-matters-4">
+<li>Make abstract behavior more concrete and visual</li>
+<li>Encourage struggle through immediate feedback</li>
+<li>Support persistence when students answer incorrectly</li>
+<li>Improve accessibility through multimodal engagement</li>
 </ul>
-<p>Ongoing survey and focus group data are informing future revisions.</p>
-<p>Survey: <a class="external" href="https://forms.office.com/r/gLb4rexa7x" target="_blank">LINK</a></p>
+<p>This study helps evaluate whether those potential benefits are realized in practice.</p>
 </div></section><section><h3>Closing Thoughts</h3>
 <div align="left">
 <p>Open textbooks are not just about cost, they are about control, adaptability, and pedagogy.</p>
