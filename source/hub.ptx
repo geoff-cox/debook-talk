@@ -425,6 +425,22 @@
 		
 		</section>
 
+		<section xml:id="textbook-highlights">
+			<title>Textbook Highlights</title>
+			
+			<p>
+				Talk highlight links:
+				<ul>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/connection-to-alg-calc.html">Audio</url></li>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/class-problems-main.html">Multi-part Questions (prob 2)</url></li>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/visualizing-solutions.html">Interactive Visualization</url></li>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/autonomous-eqns.html">Tikz</url></li>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/chpt-laplace-transform-method.html">Slide Show</url></li>
+					<li><url href="https://runestone.academy/ns/books/published/debookrs/unit-step-functions.html#def-windowed-unit-step">More Vizualization</url></li>
+				</ul>
+			</p>
+		</section>
+
 		<section xml:id="getting-started-w-pretext">
 			<title><pretext /> Setup Guide</title>
 
